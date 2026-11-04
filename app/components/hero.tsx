@@ -141,7 +141,7 @@ export default function Hero() {
       <div className="pointer-events-none absolute -right-24 top-36 z-[2] h-[360px] w-[360px] rounded-full border border-white/10" />
 
       {/* Slide content */}
-      <div className="relative z-10 mx-auto bottom-20 flex h-full max-w-7xl items-center px-5 pb-24 pt-6 lg:px-8 lg:pb-20">
+      <div className="relative z-10 mx-auto bottom-16 flex h-full max-w-7xl items-center px-5 pb-24 pt-6 lg:px-8 lg:pb-20">
         {slides.map((slide, index) => (
           <div
             key={slide.number}
@@ -203,7 +203,7 @@ export default function Hero() {
         ))}
 
         {/* Slide navigation */}
-        <div className="absolute bottom-28 left-5 right-5 flex items-center justify-between lg:left-8 lg:right-8">
+        <div className="absolute bottom-20 left-5 right-5 flex items-center justify-between lg:left-8 lg:right-8">
           <div className="flex items-center gap-4">
             <span className="text-2xl font-black text-white">
               {slides[current].number}
