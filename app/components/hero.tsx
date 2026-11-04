@@ -108,7 +108,7 @@ export default function Hero() {
 
   return (
     <section
-      className="relative isolate h-[580px] overflow-hidden bg-[#061D38] sm:h-[540px] lg:h-[560px]"
+      className="relative isolate h-[600px] overflow-hidden bg-[#061D38] sm:h-[540px] lg:h-[560px]"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
@@ -237,8 +237,8 @@ export default function Hero() {
       </div>
 
       {/* Bottom capability strip */}
-      <div className="absolute bottom-0 left-0 z-10 w-full border-t border-white/10 bg-[#061D38]/80 backdrop-blur-md">
-        <div className="mx-auto flex max-w-7xl flex-col justify-between gap-3 px-5 py-3 sm:flex-row sm:items-center lg:px-8">
+      <div className="absolute bottom-0 left-0 z-10  w-full border-t  border-white/10 bg-[#061D38]/80 backdrop-blur-md">
+        <div className="mx-auto flex max-w-7xl flex-col  justify-between gap-3 px-5 py-3 sm:flex-row sm:items-center lg:px-8">
           <div className="flex items-center gap-3 text-xs text-slate-300">
             <Plane size={18} className="shrink-0 text-[#19B5E5]" />
             <span>Charles Prince Airport, Harare, Zimbabwe</span>
