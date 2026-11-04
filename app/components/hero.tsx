@@ -203,7 +203,7 @@ export default function Hero() {
         ))}
 
         {/* Slide navigation */}
-        <div className="absolute bottom-40 left-5 right-5 flex items-center justify-between lg:left-8 lg:right-8">
+        <div className="absolute bottom-28 left-5 right-5 flex items-center justify-between lg:left-8 lg:right-8">
           <div className="flex items-center gap-4">
             <span className="text-2xl font-black text-white">
               {slides[current].number}
