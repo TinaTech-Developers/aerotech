@@ -108,7 +108,7 @@ export default function Hero() {
 
   return (
     <section
-      className="relative isolate h-[700px] overflow-hidden bg-[#061D38] sm:h-[540px] lg:h-[560px]"
+      className="relative isolate h-[600px] overflow-hidden bg-[#061D38] sm:h-[540px] lg:h-[560px]"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
@@ -203,7 +203,7 @@ export default function Hero() {
         ))}
 
         {/* Slide navigation */}
-        <div className="absolute bottom-20 left-5 right-5 flex items-center justify-between lg:left-8 lg:right-8">
+        <div className="absolute bottom-40 left-5 right-5 flex items-center justify-between lg:left-8 lg:right-8">
           <div className="flex items-center gap-4">
             <span className="text-2xl font-black text-white">
               {slides[current].number}
