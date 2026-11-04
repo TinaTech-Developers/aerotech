@@ -108,7 +108,7 @@ export default function Hero() {
 
   return (
     <section
-      className="relative isolate h-[600px] overflow-hidden bg-[#061D38] sm:h-[540px] lg:h-[560px]"
+      className="relative isolate h-[700px] overflow-hidden bg-[#061D38] sm:h-[540px] lg:h-[560px]"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
