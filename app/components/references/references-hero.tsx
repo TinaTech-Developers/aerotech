@@ -19,19 +19,21 @@ export default function ReferencesHero() {
         <div className="max-w-3xl">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-cyan-400/30 bg-cyan-400/10 px-4 py-2 text-sm font-semibold text-cyan-300">
             <Building2 size={16} />
-            Our References
+            Industry References
           </div>
 
           <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
             Built on Experience.
-            <span className="block text-cyan-400">Recognised Through</span>
-            <span className="block">Our References.</span>
+            <span className="block text-cyan-400">Trusted Through</span>
+            <span className="block">Professional Relationships.</span>
           </h1>
 
           <p className="mt-6 max-w-2xl text-base leading-8 text-slate-200 sm:text-lg">
-            Explore the organisations included in Aerotech's company reference
-            information, representing a range of aviation, training and industry
-            sectors.
+            With more than five decades of aviation experience behind its
+            heritage, Aerotech Technicians has served within Zimbabwe's aviation
+            and engineering landscape. Explore the organisations included in our
+            company reference information, reflecting our industry experience
+            and professional engagement across aviation and related sectors.
           </p>
 
           <div className="mt-9 flex flex-wrap gap-4">

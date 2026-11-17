@@ -10,30 +10,30 @@ import {
 const steps = [
   {
     number: "01",
-    title: "Make an Enquiry",
+    title: "Submit Your Enquiry",
     description:
-      "Contact Aerotech and tell us whether you require piston engine, propeller or PT6 component services.",
+      "Contact Aerotech and outline your requirements for piston engine maintenance, propeller services or PT6A component repairs and overhauls.",
     icon: MessageSquareText,
   },
   {
     number: "02",
-    title: "Share Component Details",
+    title: "Provide Engine & Component Details",
     description:
-      "Provide the relevant engine or component information and describe the service you are seeking.",
+      "Share relevant engine or component details, including equipment type, specifications and available maintenance or technical records.",
     icon: ClipboardList,
   },
   {
     number: "03",
-    title: "Discuss the Requirements",
+    title: "Technical Assessment",
     description:
-      "Discuss the requested overhaul or repair work with the Aerotech team.",
+      "Discuss the required maintenance, inspection, repair or overhaul work with the Aerotech team to establish the appropriate service requirements.",
     icon: Wrench,
   },
   {
     number: "04",
-    title: "Coordinate Next Steps",
+    title: "Coordinate the Next Steps",
     description:
-      "Engage with the team to discuss service arrangements and the next steps for your enquiry.",
+      "Review the proposed service arrangements and coordinate the next steps for your engine or propeller service enquiry.",
     icon: Cog,
   },
 ];
@@ -60,8 +60,9 @@ export default function EngineProcess() {
           </h2>
 
           <p className="mt-5 text-base leading-8 text-blue-100/75">
-            Start a conversation with Aerotech about the engine, propeller or
-            component services you require.
+            Every service enquiry begins with understanding your engine,
+            propeller or component requirements. Speak to our team about the
+            appropriate maintenance, repair or overhaul support.
           </p>
         </div>
 
@@ -96,10 +97,11 @@ export default function EngineProcess() {
         <div className="mt-16 flex flex-col items-center justify-between gap-6 rounded-2xl border border-white/10 bg-white/[0.05] p-7 sm:p-9 lg:flex-row">
           <div>
             <p className="text-xl font-bold text-white">
-              Need engine or propeller overhaul support?
+              Require Specialist Engine or Propeller Services?
             </p>
             <p className="mt-2 text-sm leading-6 text-blue-100/70">
-              Contact our team to discuss your requirements.
+              Speak to Aerotech about piston engine overhauls, propeller
+              maintenance and PT6A component support.
             </p>
           </div>
 
@@ -107,7 +109,7 @@ export default function EngineProcess() {
             href="/contact"
             className="inline-flex w-full items-center justify-center gap-3 rounded-md bg-[#087FC1] px-7 py-4 text-sm font-bold text-white transition hover:bg-[#066DA8] sm:w-auto"
           >
-            Contact Aerotech
+            Enquire With Aerotech
             <ArrowRight size={18} />
           </Link>
         </div>

@@ -1,13 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight, CheckCircle2, Plane, Ruler, Wrench } from "lucide-react";
+import { ArrowUpRight, CheckCircle2, Plane, Ruler } from "lucide-react";
 
 const highlights = [
-  "Sheet metal work and stressed-skin repairs",
-  "Complete aircraft refurbishment and spray painting",
-  "Aircraft weighing",
-  "Fabric and fibreglass work",
-  "General machining and aluminium welding",
+  "Sheet metal fabrication and stressed-skin structural repairs",
+  "Aircraft fabric and fibreglass work",
+  "General machining and precision engineering",
+  "Welding services, including aluminium welding",
+  "Aircraft cable fabrication",
+  "Proof loading of aircraft seatbelts",
 ];
 
 export default function AirframeOverview() {
@@ -35,7 +36,7 @@ export default function AirframeOverview() {
                   Airframe Engineering
                 </p>
                 <p className="text-xs text-slate-500">
-                  Repairs and refurbishment
+                  Structural and workshop capabilities
                 </p>
               </div>
             </div>
@@ -51,20 +52,23 @@ export default function AirframeOverview() {
           </div>
 
           <h2 className="text-3xl font-bold leading-tight tracking-tight text-[#082B52] sm:text-4xl">
-            Specialist Airframe Work & Aircraft Refurbishment
+            Specialist Structural Repairs & Precision Engineering
           </h2>
 
           <p className="mt-6 text-base leading-8 text-slate-600">
-            Aerotech offers a range of airframe engineering services covering
-            sheet metal work, stressed-skin repairs, aircraft weighing, and
-            fabric and fibreglass work.
+            Aerotech Technicians provides specialist airframe engineering
+            services supporting aircraft maintenance, structural repairs and
+            refurbishment. Its capabilities include sheet metal fabrication,
+            stressed-skin structural repairs, and aircraft fabric and fibreglass
+            work.
           </p>
 
           <p className="mt-4 text-base leading-8 text-slate-600">
-            The company's capabilities also include complete aircraft
-            refurbishment, including spray painting, alongside supporting
-            engineering services such as general machining and aluminium
-            welding.
+            Supporting workshop capabilities include general machining,
+            precision engineering, aluminium welding, aircraft cable fabrication
+            and proof loading of aircraft seatbelts. Together, these services
+            provide a range of mechanical and structural support for general
+            aviation aircraft.
           </p>
 
           <div className="mt-8 space-y-4">
@@ -83,9 +87,9 @@ export default function AirframeOverview() {
             <div className="flex items-center gap-3 text-sm text-slate-500">
               <Plane size={20} className="shrink-0 text-[#087FC1]" />
               <span>
-                Aerotech (Pvt) Ltd
+                Aerotech Technicians
                 <br />
-                Charles Prince Airport
+                Charles Prince Airport, Harare
               </span>
             </div>
 

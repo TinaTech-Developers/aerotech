@@ -13,40 +13,42 @@ const capabilities = [
     number: "01",
     title: "Piston Engine Overhauls",
     description:
-      "Overhaul services for piston engines used in general aviation applications.",
+      "Specialist maintenance and overhaul services for general aviation piston engines, including applicable Lycoming and Continental engine types.",
     icon: Cog,
   },
   {
     number: "02",
-    title: "Engine Component Overhauls",
+    title: "Engine Component Maintenance",
     description:
-      "Overhaul services for piston engine components as part of Aerotech's engine engineering offering.",
+      "Inspection, servicing, repair and overhaul support for applicable piston engine components to maintain their condition and serviceability.",
     icon: Component,
   },
   {
     number: "03",
-    title: "Propeller Overhauls",
+    title: "Propeller Maintenance & Overhauls",
     description:
-      "Propeller overhaul services supporting aircraft maintenance requirements.",
+      "Propeller servicing, inspection and overhaul capabilities supporting the maintenance and continued serviceability of aircraft propeller systems.",
     icon: RotateCw,
   },
   {
     number: "04",
-    title: "PT6 Engine Component Repairs",
-    description: "Repair services for PT6 engine components.",
+    title: "PT6A Component Repairs",
+    description:
+      "Specialist repair services for applicable Pratt & Whitney PT6A turbine-engine components, supporting component maintenance requirements.",
     icon: Wrench,
   },
   {
     number: "05",
-    title: "PT6 Component Overhauls",
-    description: "Overhaul services for PT6 engine components.",
+    title: "PT6A Component Overhauls",
+    description:
+      "Overhaul services for applicable PT6A engine components as part of Aerotech's specialist turbine-engine engineering capabilities.",
     icon: Settings,
   },
   {
     number: "06",
-    title: "Supporting Engineering Services",
+    title: "Associated Engineering Support",
     description:
-      "Access to Aerotech's wider aircraft maintenance, component, electrical and technical engineering capabilities.",
+      "Complementary technical capabilities across aircraft maintenance, mechanical engineering, component support and related aviation services.",
     icon: Gauge,
   },
 ];
@@ -72,8 +74,10 @@ export default function EngineCapabilities() {
           </h2>
 
           <p className="mt-5 text-base leading-8 text-slate-600">
-            Explore the engine and propeller services available through
-            Aerotech's aviation engineering operations.
+            Aerotech Technicians delivers engine and propeller maintenance
+            capabilities covering piston engine overhauls, propeller servicing
+            and specialist repair and overhaul support for applicable PT6A
+            turbine-engine components.
           </p>
         </div>
 
@@ -116,12 +120,13 @@ export default function EngineCapabilities() {
 
             <div>
               <h3 className="text-xl font-bold text-white">
-                More Than Engine Services
+                Integrated Aviation Engineering Support
               </h3>
               <p className="mt-2 max-w-2xl text-sm leading-7 text-blue-100/80">
-                Aerotech also offers aircraft maintenance, electrical and radio
-                services, instrument repairs, airframe engineering and aircraft
-                spares.
+                Aerotech's wider capabilities include aircraft maintenance and
+                rebuilding, airframe engineering, instrument testing and
+                calibration, electrical and radio systems, non-destructive
+                testing, corrosion protection and specialist component services.
               </p>
             </div>
           </div>

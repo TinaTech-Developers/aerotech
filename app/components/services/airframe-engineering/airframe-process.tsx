@@ -10,30 +10,30 @@ import {
 const steps = [
   {
     number: "01",
-    title: "Make an Enquiry",
+    title: "Submit Your Enquiry",
     description:
-      "Contact Aerotech and explain whether you need structural repairs, refurbishment, aircraft weighing or another airframe service.",
+      "Contact Aerotech and outline your aircraft's airframe engineering requirements, whether structural repairs, sheet metal work, fabrication or refurbishment.",
     icon: MessageSquareText,
   },
   {
     number: "02",
-    title: "Share Your Requirements",
+    title: "Provide Aircraft Details",
     description:
-      "Provide relevant aircraft information and details of the work or service you are seeking.",
+      "Share relevant aircraft information, maintenance records and details of the structural work, repairs or specialist services required.",
     icon: ClipboardList,
   },
   {
     number: "03",
-    title: "Discuss the Work",
+    title: "Technical Assessment",
     description:
-      "Discuss your requested airframe engineering service with the Aerotech team.",
+      "Discuss your requirements with the Aerotech team to establish the nature of the work, relevant technical considerations and proposed service scope.",
     icon: Wrench,
   },
   {
     number: "04",
-    title: "Coordinate Next Steps",
+    title: "Coordinate the Next Steps",
     description:
-      "Engage with the team to discuss the service arrangements and next steps for your enquiry.",
+      "Discuss the proposed service arrangements, work requirements and next steps for progressing your airframe engineering enquiry.",
     icon: Plane,
   },
 ];
@@ -56,12 +56,13 @@ export default function AirframeProcess() {
           </div>
 
           <h2 className="text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl">
-            Start Your Airframe Engineering Enquiry
+            Your Airframe Engineering Requirements, Our Technical Expertise
           </h2>
 
           <p className="mt-5 text-base leading-8 text-blue-100/75">
-            Tell us about your aircraft and the airframe engineering service you
-            require.
+            Every project begins with understanding your aircraft and its
+            structural requirements. Engage our team to discuss the appropriate
+            engineering, repair or specialist support for your needs.
           </p>
         </div>
 
@@ -96,10 +97,11 @@ export default function AirframeProcess() {
         <div className="mt-16 flex flex-col items-center justify-between gap-6 rounded-2xl border border-white/10 bg-white/[0.05] p-7 sm:p-9 lg:flex-row">
           <div>
             <p className="text-xl font-bold text-white">
-              Looking for airframe engineering support?
+              Need Specialist Airframe Engineering Support?
             </p>
             <p className="mt-2 text-sm leading-6 text-blue-100/70">
-              Get in touch with Aerotech to discuss your requirements.
+              Speak to Aerotech about your aircraft structural repairs,
+              fabrication and engineering requirements.
             </p>
           </div>
 

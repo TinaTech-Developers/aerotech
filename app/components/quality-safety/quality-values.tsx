@@ -5,25 +5,25 @@ const values = [
     icon: Target,
     title: "Commitment",
     description:
-      "We are dedicated to delivering quality and affordable service.",
+      "We are dedicated to providing safe, reliable and affordable aircraft maintenance and engineering services, while meeting our responsibilities to customers and the aviation industry.",
   },
   {
     icon: Users,
     title: "Teamwork",
     description:
-      "We are committed to achieving common goals through collaboration and communication with stakeholders.",
+      "We work collaboratively, share technical knowledge and communicate effectively to achieve common goals and deliver dependable aviation support.",
   },
   {
     icon: ShieldCheck,
     title: "Integrity",
     description:
-      "We inspire trust by being honest, accountable and ethical in everything we do.",
+      "We conduct our business with honesty, professionalism and accountability, building trust through responsible decisions and ethical conduct.",
   },
   {
     icon: Award,
     title: "Excellence",
     description:
-      "We strive to build lifelong customer relationships, recognising that lives depend on the quality of our work.",
+      "We pursue high standards of technical workmanship, continuous improvement and customer service, recognising the importance of quality in aviation.",
   },
 ];
 
@@ -41,8 +41,10 @@ export default function QualityValues() {
           </h2>
 
           <p className="mt-5 leading-8 text-slate-300">
-            The values that define our culture and guide our relationships with
-            customers, employees and stakeholders.
+            Commitment, Teamwork, Integrity and Excellence define our
+            organisational culture and guide how we serve our customers, work
+            with our colleagues and fulfil our responsibilities within the
+            aviation industry.
           </p>
         </div>
 

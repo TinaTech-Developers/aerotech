@@ -4,23 +4,27 @@ import { Gauge, Thermometer, Zap, Ruler, CheckCircle2 } from "lucide-react";
 const categories = [
   {
     icon: Gauge,
-    title: "Pressure Instruments",
-    description: "Pressure gauges, indicators and regulators.",
+    title: "Pressure Instrument Testing",
+    description:
+      "Testing of pressure gauges, pressure indicators, regulators and related measurement equipment.",
   },
   {
     icon: Thermometer,
-    title: "Temperature Instruments",
-    description: "Temperature indicators, recorders and controllers.",
+    title: "Temperature Instrument Testing",
+    description:
+      "Testing of temperature indicators, recorders, controllers, thermocouples and associated equipment.",
   },
   {
     icon: Zap,
-    title: "Electrical Instruments",
-    description: "Electrical meters, testers and measurement equipment.",
+    title: "Electrical Instrument Testing",
+    description:
+      "Testing of electrical measuring equipment, including AC/DC meters, multimeters and electrical testers.",
   },
   {
     icon: Ruler,
-    title: "Standard Measurements",
-    description: "Dimensional and mechanical measuring instruments.",
+    title: "Dimensional & Standard Measurements",
+    description:
+      "Inspection and measurement checks involving micrometers, callipers, gauges and other precision measuring instruments.",
   },
 ];
 
@@ -42,7 +46,8 @@ export default function InstrumentOverview() {
             <Gauge className="mb-3 text-cyan-400" size={30} />
             <p className="text-lg font-bold">Precision Measurement</p>
             <p className="mt-2 text-sm leading-6 text-slate-300">
-              Instrument testing across multiple measurement categories.
+              Testing and calibration support across multiple measurement
+              categories.
             </p>
           </div>
         </div>
@@ -53,27 +58,31 @@ export default function InstrumentOverview() {
           </span>
 
           <h2 className="mt-4 text-3xl font-bold leading-tight text-[#082B52] sm:text-4xl">
-            Precision Testing for Reliable Measurements
+            Accurate Measurement. Reliable Technical Results.
           </h2>
 
           <p className="mt-6 leading-8 text-slate-600">
-            Aerotech provides instrument testing and calibration services across
-            a range of measurement equipment. Our capabilities include pressure,
-            temperature, electrical and standard measurement instruments.
+            Aerotech Technicians provides instrument testing and calibration
+            services covering pressure, temperature, electrical and dimensional
+            measurement equipment. These capabilities support the assessment of
+            instrument performance and measurement reliability across aviation
+            and related engineering applications.
           </p>
 
           <p className="mt-4 leading-8 text-slate-600">
-            From pressure gauges and temperature indicators to electrical
-            testing equipment and dimensional measuring instruments, our
-            services cover a broad range of measurement requirements.
+            Our equipment coverage includes pressure gauges and regulators,
+            temperature indicators and controllers, electrical meters and
+            testers, as well as precision dimensional measuring instruments.
+            This range enables us to support varied technical measurement
+            requirements.
           </p>
 
           <div className="mt-8 space-y-4">
             {[
-              "Pressure testing",
-              "Temperature testing",
-              "Electrical testing",
-              "Standard measurement instruments",
+              "Pressure instrument testing",
+              "Temperature instrument testing",
+              "Electrical instrument testing",
+              "Dimensional and standard measurements",
             ].map((item) => (
               <div key={item} className="flex items-center gap-3">
                 <CheckCircle2 size={20} className="shrink-0 text-cyan-500" />

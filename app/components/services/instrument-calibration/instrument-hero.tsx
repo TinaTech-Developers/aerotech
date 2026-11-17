@@ -19,18 +19,20 @@ export default function InstrumentHero() {
         <div className="max-w-3xl">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-cyan-400/30 bg-cyan-400/10 px-4 py-2 text-sm font-semibold text-cyan-300">
             <Gauge size={17} />
-            Precision Instrument Services
+            Instrument Testing & Calibration
           </div>
 
           <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
-            Instrument Testing
-            <span className="block text-cyan-400">& Calibration</span>
+            Precision Instrument
+            <span className="block text-cyan-400">Testing & Calibration</span>
           </h1>
 
           <p className="mt-7 max-w-2xl text-base leading-8 text-slate-200 sm:text-lg">
-            Instrument testing and calibration services covering pressure,
-            temperature, electrical and standard measurement instruments.
-            Supporting precision and confidence in measurement.
+            Aerotech Technicians provides instrument testing and calibration
+            services across pressure, temperature, electrical and dimensional
+            measurement equipment. Our capabilities support measurement
+            accuracy, equipment reliability and confidence in technical
+            results across aviation and related engineering applications.
           </p>
 
           <div className="mt-9 flex flex-wrap gap-4">

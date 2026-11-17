@@ -11,7 +11,7 @@ import {
 
 export default function AirframeHero() {
   return (
-    <section className="relative isolate min-h-[540px] overflow-hidden bg-[#061D38] lg:min-h-[620px]">
+    <section className="relative isolate min-h-[540px] overflow-hidden bg-[#061D38]">
       <Image
         src="/images/services/airframe-engineering.jpg"
         alt="Aircraft airframe engineering and structural maintenance"
@@ -46,14 +46,18 @@ export default function AirframeHero() {
           <h1 className="max-w-3xl text-4xl font-bold leading-[1.08] tracking-tight text-white sm:text-5xl md:text-6xl">
             Airframe Engineering.
             <span className="block text-cyan-300">
-              Precision in Every Detail.
+              Strength, Precision & Reliability.
             </span>
           </h1>
 
           <p className="mt-7 max-w-2xl text-base leading-8 text-slate-200 sm:text-lg">
-            From sheet metal work and stressed-skin repairs to aircraft
-            refurbishment, weighing and fabric work, Aerotech provides a range
-            of specialist airframe engineering capabilities.
+            Aerotech Technicians provides specialist airframe and structural
+            engineering services for general aviation aircraft. Our capabilities
+            include sheet metal fabrication and repairs, stressed-skin
+            structural repairs, fabric and fibreglass work, welding, precision
+            machining and aircraft cable fabrication. These services support
+            aircraft maintenance, refurbishment and structural restoration
+            requirements.
           </p>
 
           <div className="mt-9 flex flex-col gap-4 sm:flex-row">
@@ -81,27 +85,27 @@ export default function AirframeHero() {
                 <span className="text-lg font-bold">Sheet Metal</span>
               </div>
               <p className="mt-2 text-xs leading-5 text-slate-300">
-                Airframe repair capabilities
+                Fabrication and structural repairs
               </p>
             </div>
 
             <div>
               <div className="flex items-center gap-2 text-cyan-300">
                 <Plane size={19} />
-                <span className="text-lg font-bold">Refurbishment</span>
+                <span className="text-lg font-bold">Airframe Repairs</span>
               </div>
               <p className="mt-2 text-xs leading-5 text-slate-300">
-                Including spray painting
+                Stressed-skin, fabric and fibreglass work
               </p>
             </div>
 
             <div className="col-span-2 sm:col-span-1">
               <div className="flex items-center gap-2 text-cyan-300">
                 <Ruler size={19} />
-                <span className="text-lg font-bold">Aircraft Weighing</span>
+                <span className="text-lg font-bold">Precision Work</span>
               </div>
               <p className="mt-2 text-xs leading-5 text-slate-300">
-                Specialist engineering service
+                Machining, welding and cable fabrication
               </p>
             </div>
           </div>

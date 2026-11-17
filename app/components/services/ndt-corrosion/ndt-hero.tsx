@@ -7,7 +7,7 @@ export default function NDTHero() {
     <section className="relative flex min-h-[540px] items-center overflow-hidden bg-[#061D38] lg:min-h-[620px]">
       <Image
         src="/images/services/ndt-corrosion.jpg"
-        alt="Aircraft engineering inspection and corrosion protection"
+        alt="Aircraft non-destructive testing and corrosion protection services"
         fill
         priority
         className="object-cover"
@@ -19,7 +19,7 @@ export default function NDTHero() {
         <div className="max-w-3xl">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-cyan-400/30 bg-cyan-400/10 px-4 py-2 text-sm font-semibold text-cyan-300">
             <ShieldCheck size={17} />
-            Inspection & Surface Protection
+            Non-Destructive Testing & Specialist Treatments
           </div>
 
           <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
@@ -28,9 +28,12 @@ export default function NDTHero() {
           </h1>
 
           <p className="mt-7 max-w-2xl text-base leading-8 text-slate-200 sm:text-lg">
-            Non-Destructive Testing and specialist corrosion protection services
-            supporting aircraft engineering, component inspection and surface
-            protection requirements.
+            Aerotech Technicians provides specialist non-destructive testing and
+            surface treatment capabilities supporting aircraft maintenance and
+            engineering. Our services include Magnetic Particle Inspection,
+            Fluorescent Penetrant Inspection and electroplating to support
+            component inspection, surface treatment and corrosion protection
+            requirements.
           </p>
 
           <div className="mt-9 flex flex-wrap gap-4">

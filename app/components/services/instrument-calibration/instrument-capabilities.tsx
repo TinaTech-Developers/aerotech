@@ -11,21 +11,21 @@ const capabilities = [
   {
     icon: Gauge,
     number: "01",
-    title: "Pressure Testing",
+    title: "Pressure Instrument Testing",
     description:
-      "Testing services covering gas pressure gauges, liquid flow pressure gauges, gauges and regulators.",
+      "Testing of pressure measurement equipment used in industrial, engineering and aviation-related applications.",
     items: [
       "Gas pressure gauges",
-      "Liquid flow pressure gauges",
-      "Gauges and regulators",
+      "Liquid pressure gauges",
+      "Pressure regulators and associated instruments",
     ],
   },
   {
     icon: Thermometer,
     number: "02",
-    title: "Temperature Testing",
+    title: "Temperature Instrument Testing",
     description:
-      "Testing services for temperature measurement and monitoring equipment.",
+      "Testing of temperature measurement and monitoring equipment to assess instrument performance and reliability.",
     items: [
       "Incubators and liquid baths",
       "Temperature indicators and recorders",
@@ -35,9 +35,9 @@ const capabilities = [
   {
     icon: Zap,
     number: "03",
-    title: "Electrical Testing",
+    title: "Electrical Instrument Testing",
     description:
-      "Testing services for electrical measurement and testing equipment.",
+      "Testing of electrical measurement instruments and equipment used for monitoring and evaluating electrical parameters.",
     items: [
       "AC/DC ammeters and voltmeters",
       "Multimeters and insulation testers",
@@ -47,9 +47,9 @@ const capabilities = [
   {
     icon: Ruler,
     number: "04",
-    title: "Standard Measurements",
+    title: "Dimensional & Mechanical Measurements",
     description:
-      "Measurement services covering dimensional and mechanical instruments.",
+      "Measurement and inspection support for precision dimensional and mechanical measuring instruments.",
     items: [
       "Micrometers and Vernier callipers",
       "Depth and height gauges",
@@ -59,25 +59,25 @@ const capabilities = [
   {
     icon: Activity,
     number: "05",
-    title: "Measurement Equipment",
+    title: "Measurement & Testing Equipment",
     description:
-      "Instrument services covering a variety of equipment used for measurement and testing.",
+      "Support for a range of instruments and equipment used in technical measurement, inspection and testing activities.",
     items: [
-      "Pressure measurement equipment",
-      "Temperature measurement equipment",
-      "Electrical measurement equipment",
+      "Pressure measurement devices",
+      "Temperature monitoring equipment",
+      "Electrical measurement and testing devices",
     ],
   },
   {
     icon: Settings,
     number: "06",
-    title: "Instrument Support",
+    title: "Instrument Assessment & Support",
     description:
-      "Services covering the range of instruments included in Aerotech's testing and calibration capabilities.",
+      "Technical engagement to establish instrument requirements and identify appropriate testing or calibration services.",
     items: [
-      "Instrument enquiries",
-      "Equipment assessment discussions",
-      "Service requirement coordination",
+      "Instrument identification and enquiries",
+      "Equipment condition and service assessments",
+      "Testing and calibration requirement coordination",
     ],
   },
 ];
@@ -96,8 +96,9 @@ export default function InstrumentCapabilities() {
           </h2>
 
           <p className="mt-5 leading-8 text-slate-600">
-            Our services cover a selection of instruments across four principal
-            measurement categories.
+            Aerotech's instrument services cover pressure, temperature,
+            electrical and dimensional measurement equipment, supported by
+            technical assessment and instrument service coordination.
           </p>
         </div>
 
@@ -149,4 +150,3 @@ export default function InstrumentCapabilities() {
     </section>
   );
 }
-    

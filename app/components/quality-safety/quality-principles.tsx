@@ -11,44 +11,44 @@ const principles = [
   {
     icon: ShieldCheck,
     number: "01",
-    title: "Safety-Conscious Operations",
+    title: "Safety & Airworthiness",
     description:
-      "Recognising safety as a fundamental responsibility in aircraft maintenance and engineering.",
+      "Recognising our responsibility to support aircraft safety and continued airworthiness through careful maintenance and engineering practices.",
   },
   {
     icon: ClipboardCheck,
     number: "02",
-    title: "Quality Workmanship",
+    title: "Quality & Excellence",
     description:
-      "A commitment to delivering quality work across our engineering and maintenance services.",
+      "Applying technical knowledge, attention to detail and professional workmanship across our maintenance and engineering activities.",
   },
   {
     icon: Handshake,
     number: "03",
     title: "Integrity & Accountability",
     description:
-      "Building trust by being honest, accountable and ethical in everything we do.",
+      "Acting with honesty, transparency and accountability in our decisions, technical responsibilities and relationships.",
   },
   {
     icon: Users,
     number: "04",
-    title: "Teamwork & Communication",
+    title: "Teamwork & Collaboration",
     description:
-      "Working towards common goals through collaboration and communication with stakeholders.",
+      "Working together, sharing expertise and communicating effectively to achieve common goals and serve our customers.",
   },
   {
     icon: Target,
     number: "05",
     title: "Commitment to Excellence",
     description:
-      "Striving to build lifelong customer relationships through dedication to quality.",
+      "Remaining dedicated to continuous improvement, dependable service and high standards in aviation maintenance and engineering.",
   },
   {
     icon: HeartHandshake,
     number: "06",
-    title: "Customer Responsibility",
+    title: "Customer Confidence",
     description:
-      "Recognising the importance of customer confidence and the responsibility associated with aviation work.",
+      "Building lasting customer relationships through professional service, responsible communication and a clear understanding of customer requirements.",
   },
 ];
 
@@ -66,8 +66,11 @@ export default function QualityPrinciples() {
           </h2>
 
           <p className="mt-5 leading-8 text-slate-600">
-            Our approach to quality and safety is guided by the principles that
-            shape how we work, serve customers and engage with stakeholders.
+            At Aerotech Technicians, our approach to quality and safety is
+            guided by the values of Commitment, Teamwork, Integrity and
+            Excellence. These principles shape our technical responsibilities,
+            our relationships with customers and the standards we bring to every
+            aspect of our work.
           </p>
         </div>
 

@@ -5,19 +5,19 @@ const highlights = [
     icon: ShieldCheck,
     title: "Professional Responsibility",
     description:
-      "A commitment to responsible, careful and professional aviation services.",
+      "A commitment to professional conduct, technical responsibility and dependable aviation maintenance and engineering support.",
   },
   {
     icon: Handshake,
-    title: "Industry Connections",
+    title: "Industry Experience",
     description:
-      "Reference information spanning aviation, training and other industries.",
+      "More than five decades of aviation experience behind our heritage, with professional engagement across aviation and related industries.",
   },
   {
     icon: Award,
     title: "Commitment to Quality",
     description:
-      "A focus on workmanship, integrity and the quality of every service.",
+      "Guided by integrity, teamwork and excellence, with a focus on responsible service and quality workmanship.",
   },
 ];
 
@@ -32,20 +32,25 @@ export default function ReferencesIntro() {
             </span>
 
             <h2 className="mt-4 text-3xl font-bold leading-tight text-[#082B52] sm:text-4xl">
-              Our References Reflect Our Place in the Industry
+              Experience Built Through Industry Engagement
             </h2>
 
             <p className="mt-6 leading-8 text-slate-600">
-              Aerotech operates within the general aviation engineering sector,
-              with capabilities covering aircraft maintenance, engine and
-              propeller services, instrument testing and calibration, and other
-              specialist technical services.
+              Aerotech Technicians operates within Zimbabwe's general aviation
+              maintenance and engineering sector. Its multidisciplinary
+              capabilities include aircraft maintenance, engine and propeller
+              services, instrument testing and calibration, airframe
+              engineering, electrical and radio systems, and specialist
+              technical support.
             </p>
 
             <p className="mt-4 leading-8 text-slate-600">
               The organisations presented on this page are drawn from Aerotech's
-              supplied company reference information. They represent a range of
-              institutions and organisations across different sectors.
+              company reference information. They reflect the breadth of its
+              industry experience and professional engagement across aviation,
+              training and related sectors. Their inclusion is intended as a
+              reference to that experience and does not necessarily indicate
+              current contractual relationships or endorsements.
             </p>
           </div>
 

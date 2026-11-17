@@ -11,30 +11,30 @@ const steps = [
   {
     icon: MessageSquare,
     number: "01",
-    title: "Make an Enquiry",
+    title: "Submit Your Enquiry",
     description:
-      "Contact Aerotech with your aircraft electrical or radio service requirements.",
+      "Contact Aerotech and outline your aircraft electrical or radio system requirements, including the service or technical support you need.",
   },
   {
     icon: ClipboardList,
     number: "02",
-    title: "Discuss Requirements",
+    title: "Provide Equipment Details",
     description:
-      "Share relevant information about the aircraft, equipment and required service.",
+      "Share relevant aircraft information, equipment details and any available technical or maintenance records relating to the requested service.",
   },
   {
     icon: Wrench,
     number: "03",
-    title: "Service Coordination",
+    title: "Technical Discussion",
     description:
-      "Our team discusses the requested installation, overhaul or bench service.",
+      "Discuss your requirements with the Aerotech team to establish the nature of the installation, component maintenance, overhaul or bench service required.",
   },
   {
     icon: CheckCircle2,
     number: "04",
-    title: "Follow Up",
+    title: "Agree on Next Steps",
     description:
-      "Stay in contact with our team regarding the service enquiry and next steps.",
+      "Review the proposed service arrangements and coordinate the next steps for progressing your electrical or radio engineering enquiry.",
   },
 ];
 
@@ -48,12 +48,14 @@ export default function ElectricalProcess() {
           </span>
 
           <h2 className="mt-4 text-3xl font-bold text-[#082B52] sm:text-4xl">
-            Getting Started With Your Service Enquiry
+            Your Aircraft Electrical & Radio Requirements, Our Technical
+            Expertise
           </h2>
 
           <p className="mt-5 leading-8 text-slate-600">
-            Our team can discuss your electrical and radio service requirements
-            and guide you through the enquiry process.
+            Every service enquiry begins with understanding your aircraft and
+            its equipment. Our team works with you to discuss the appropriate
+            electrical, radio or component support required.
           </p>
         </div>
 
@@ -85,13 +87,13 @@ export default function ElectricalProcess() {
 
         <div className="mt-14 rounded-2xl bg-[#082B52] p-8 text-center sm:p-12">
           <h3 className="text-2xl font-bold text-white sm:text-3xl">
-            Need Electrical or Radio Services?
+            Need Specialist Electrical or Radio Engineering Support?
           </h3>
 
           <p className="mx-auto mt-4 max-w-2xl leading-7 text-slate-300">
-            Get in touch with Aerotech to discuss your aircraft electrical
-            installations, radio installations, component overhauls or bench
-            service requirements.
+            Speak to Aerotech about aircraft electrical installations, radio
+            systems, component maintenance, overhaul support and workshop-based
+            bench services.
           </p>
 
           <Link

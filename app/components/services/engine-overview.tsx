@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight, CheckCircle2, Cog, Plane, Wrench } from "lucide-react";
+import { ArrowUpRight, CheckCircle2, Cog, Plane } from "lucide-react";
 
 const highlights = [
-  "Piston engine overhauls",
-  "Engine component overhauls",
-  "Propeller overhauls",
-  "PT6 engine component repairs and overhauls",
+  "Piston engine maintenance and overhauls",
+  "Piston engine component inspection and overhauls",
+  "Propeller maintenance and overhauls",
+  "PT6A engine component repairs and overhaul support",
 ];
 
 export default function EngineOverview() {
@@ -34,7 +34,7 @@ export default function EngineOverview() {
                   Engine Expertise
                 </p>
                 <p className="text-xs text-slate-500">
-                  Overhaul and component services
+                  Engine and component services
                 </p>
               </div>
             </div>
@@ -50,20 +50,23 @@ export default function EngineOverview() {
           </div>
 
           <h2 className="text-3xl font-bold leading-tight tracking-tight text-[#082B52] sm:text-4xl">
-            Supporting the Performance of Your Aircraft
+            Supporting Aircraft Performance & Reliability
           </h2>
 
           <p className="mt-6 text-base leading-8 text-slate-600">
-            Aerotech provides overhaul services for piston engines and their
-            components, alongside propeller overhauls. These services form part
-            of the company's wider general aviation maintenance and engineering
-            capabilities.
+            Aerotech Technicians provides specialist maintenance and overhaul
+            services for piston engines used in general aviation aircraft. These
+            capabilities include engine and component overhauls, supported by
+            technical expertise in applicable Lycoming and Continental engine
+            types.
           </p>
 
           <p className="mt-4 text-base leading-8 text-slate-600">
-            Aerotech also undertakes repairs and overhauls of PT6 engine
-            components, extending its technical offering to include specialist
-            turbine engine component work.
+            Our engine and propeller services also include propeller maintenance
+            and overhauls, together with repair and overhaul support for
+            applicable Pratt & Whitney PT6A engine components. These
+            capabilities complement Aerotech's wider aircraft maintenance and
+            aviation engineering operations.
           </p>
 
           <div className="mt-8 space-y-4">

@@ -12,25 +12,25 @@ const highlights = [
     icon: Search,
     title: "Non-Destructive Testing",
     description:
-      "NDT services supporting the inspection of aircraft and engineering components.",
+      "Inspection methods used to identify surface and material discontinuities without damaging the component being examined.",
   },
   {
     icon: ShieldCheck,
     title: "Corrosion Protection",
     description:
-      "Surface protection services for aircraft engineering and components.",
+      "Specialist surface treatment processes supporting the protection and preservation of engineering components.",
   },
   {
     icon: Layers,
-    title: "Specialist Plating",
+    title: "Electroplating Services",
     description:
-      "Corrosion protection through cadmium, silver and other plating services.",
+      "Cadmium, silver and other plating processes for applicable engineering components and surface treatment requirements.",
   },
   {
     icon: Wrench,
-    title: "Engineering Support",
+    title: "Specialist Engineering Support",
     description:
-      "Supporting Aerotech's wider aircraft maintenance and engineering capabilities.",
+      "Technical services complementing Aerotech's wider aircraft maintenance, component repair and engineering capabilities.",
   },
 ];
 
@@ -42,7 +42,7 @@ export default function NDTOverview() {
           <div className="relative h-[380px] overflow-hidden rounded-2xl sm:h-[480px]">
             <Image
               src="/images/services/ndt-inspection.jpg"
-              alt="Non-destructive testing and engineering inspection"
+              alt="Non-destructive testing and specialist engineering inspection"
               fill
               className="object-cover"
             />
@@ -52,7 +52,7 @@ export default function NDTOverview() {
             <ShieldCheck className="mb-3 text-cyan-400" size={30} />
             <p className="text-lg font-bold">Inspection & Protection</p>
             <p className="mt-2 text-sm leading-6 text-slate-300">
-              NDT and corrosion protection capabilities.
+              Specialist NDT methods and electroplating capabilities.
             </p>
           </div>
         </div>
@@ -67,24 +67,28 @@ export default function NDTOverview() {
           </h2>
 
           <p className="mt-6 leading-8 text-slate-600">
-            Aerotech offers Non-Destructive Testing (NDT) as part of its broader
-            aviation engineering capabilities. These services support the
-            inspection of aircraft and engineering components without relying
-            solely on destructive examination.
+            Aerotech Technicians provides specialist Non-Destructive Testing
+            (NDT) capabilities as part of its wider aviation engineering
+            services. These inspection methods help identify surface and
+            material discontinuities in applicable components without
+            compromising the integrity of the items being examined. Our
+            identified methods include Magnetic Particle Inspection (MPI) and
+            Fluorescent Penetrant Inspection (FPI).
           </p>
 
           <p className="mt-4 leading-8 text-slate-600">
-            Our corrosion protection capabilities include cadmium, silver and
-            other plating services, supporting the protection of relevant
-            engineering components and surfaces.
+            Complementing these inspection capabilities, Aerotech offers
+            electroplating services, including cadmium and silver plating, to
+            support surface treatment and corrosion protection requirements for
+            applicable engineering components.
           </p>
 
           <div className="mt-8 space-y-4">
             {[
-              "Non-Destructive Testing (NDT)",
-              "Corrosion protection",
-              "Cadmium plating",
-              "Silver and other plating",
+              "Magnetic Particle Inspection (MPI)",
+              "Fluorescent Penetrant Inspection (FPI)",
+              "Cadmium electroplating",
+              "Silver and other plating services",
             ].map((item) => (
               <div key={item} className="flex items-center gap-3">
                 <CheckCircle2 size={20} className="shrink-0 text-cyan-500" />

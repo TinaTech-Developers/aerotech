@@ -26,6 +26,7 @@ export default function MaintenanceHero() {
 
       <div className="relative mx-auto flex min-h-[540px] max-w-7xl items-center px-5 py-20 sm:px-8 lg:min-h-[620px] lg:px-10">
         <div className="max-w-3xl">
+          {/* Breadcrumbs */}
           <div className="mb-7 flex flex-wrap items-center gap-2 text-sm font-medium text-blue-100">
             <Link href="/" className="transition hover:text-white">
               Home
@@ -38,22 +39,26 @@ export default function MaintenanceHero() {
             <span className="text-cyan-300">Aircraft Maintenance</span>
           </div>
 
+          {/* Eyebrow */}
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-cyan-300/30 bg-cyan-300/10 px-4 py-2 text-sm font-semibold text-cyan-200 backdrop-blur-sm">
             <Plane size={16} />
-            Aviation Maintenance & Engineering
+            Aircraft Maintenance & Airworthiness
           </div>
 
+          {/* Main heading */}
           <h1 className="max-w-3xl text-4xl font-bold leading-[1.08] tracking-tight text-white sm:text-5xl md:text-6xl">
             Aircraft Maintenance.
             <span className="block text-cyan-300">
-              Engineering You Can Trust.
+              Reliability in Every Detail.
             </span>
           </h1>
 
           <p className="mt-7 max-w-2xl text-base leading-8 text-slate-200 sm:text-lg">
-            Aerotech provides aircraft maintenance, repair and rebuilding
-            services for general aviation aircraft with a Maximum All-up Weight
-            of up to 5,700 kg.
+            Your trusted partner in airworthiness. Aerotech Technicians provides
+            general aviation aircraft maintenance, servicing, inspections,
+            repairs and rebuilding, backed by multidisciplinary engineering
+            expertise and more than five decades of aviation experience in
+            Zimbabwe.
           </p>
 
           <div className="mt-9 flex flex-col gap-4 sm:flex-row">
@@ -74,34 +79,35 @@ export default function MaintenanceHero() {
             </Link>
           </div>
 
+          {/* Capability highlights */}
           <div className="mt-12 grid max-w-xl grid-cols-2 gap-4 border-t border-white/20 pt-7 sm:grid-cols-3">
+            <div>
+              <div className="flex items-center gap-2 text-cyan-300">
+                <ShieldCheck size={18} />
+                <span className="text-lg font-bold">CAAZ</span>
+              </div>
+              <p className="mt-2 text-xs leading-5 text-slate-300">
+                Approved maintenance capability
+              </p>
+            </div>
+
             <div>
               <div className="flex items-center gap-2 text-cyan-300">
                 <Plane size={18} />
                 <span className="text-2xl font-bold">5,700 kg</span>
               </div>
               <p className="mt-2 text-xs leading-5 text-slate-300">
-                Maximum All-up Weight
-              </p>
-            </div>
-
-            <div>
-              <div className="flex items-center gap-2 text-cyan-300">
-                <Wrench size={18} />
-                <span className="text-lg font-bold">Maintenance</span>
-              </div>
-              <p className="mt-2 text-xs leading-5 text-slate-300">
-                Repair and rebuilding
+                Maximum authorised aircraft weight
               </p>
             </div>
 
             <div className="col-span-2 sm:col-span-1">
               <div className="flex items-center gap-2 text-cyan-300">
-                <ShieldCheck size={18} />
-                <span className="text-lg font-bold">Engineering</span>
+                <Wrench size={18} />
+                <span className="text-lg font-bold">50+ Years</span>
               </div>
               <p className="mt-2 text-xs leading-5 text-slate-300">
-                Broad technical capabilities
+                Aviation experience in Zimbabwe
               </p>
             </div>
           </div>

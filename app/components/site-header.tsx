@@ -18,6 +18,8 @@ import {
   Mail,
   MapPin,
   ArrowUpRight,
+  DraftingCompass,
+  Package,
 } from "lucide-react";
 
 const services = [
@@ -57,12 +59,29 @@ const services = [
     href: "/services/ndt-corrosion",
     icon: ShieldCheck,
   },
+  {
+    title: "Precision Engineering ",
+    description: "Precision Engineering ",
+    href: "/services/precision-engineering",
+    icon: DraftingCompass,
+  },
+  {
+    title: "Aircraft Spares ",
+    description: "Aircraft Spares ",
+    href: "/services/aircraft-spares",
+    icon: Package,
+  },
 ];
 
 const about = [
   { title: "Company Overview", href: "/about", icon: Building2 },
   { title: "Our History", href: "/about/history", icon: History },
   { title: "KSM Group", href: "/about/ksm-group", icon: Users },
+  {
+    title: "Management & Team",
+    href: "/about/management",
+    icon: Users,
+  },
 ];
 
 export default function SiteHeader() {

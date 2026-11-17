@@ -1,29 +1,30 @@
 import Image from "next/image";
-import { Radio, Settings, Wrench, Cable, ShieldCheck } from "lucide-react";
+import { Radio, Settings, Wrench, Cable } from "lucide-react";
 
 const highlights = [
   {
     icon: Radio,
-    title: "Radio Installations",
+    title: "Aircraft Radio Systems",
     description:
-      "Aircraft radio installation services supporting onboard communication systems.",
+      "Installation and technical support for aircraft radio and onboard communication systems.",
   },
   {
     icon: Cable,
-    title: "Electrical Installations",
+    title: "Aircraft Electrical Systems",
     description:
-      "Electrical installation services for general aviation aircraft.",
+      "Electrical installation and servicing support for general aviation aircraft systems.",
   },
   {
     icon: Settings,
-    title: "Component Overhauls",
+    title: "Component Maintenance",
     description:
-      "Overhaul services for aircraft electrical and radio components.",
+      "Maintenance and overhaul support for aircraft electrical and radio components.",
   },
   {
     icon: Wrench,
-    title: "Bench Services",
-    description: "Bench services for aircraft electrical and radio components.",
+    title: "Component Bench Services",
+    description:
+      "Workshop-based inspection, servicing and technical support for electrical and radio components.",
   },
 ];
 
@@ -45,7 +46,8 @@ export default function ElectricalOverview() {
             <Radio className="mb-3 text-cyan-400" size={30} />
             <p className="text-lg font-bold">Electrical & Radio Engineering</p>
             <p className="mt-2 text-sm leading-6 text-slate-300">
-              Installations, component overhauls and bench services.
+              Aircraft electrical systems, radio installations and component
+              support.
             </p>
           </div>
         </div>
@@ -60,16 +62,18 @@ export default function ElectricalOverview() {
           </h2>
 
           <p className="mt-6 leading-8 text-slate-600">
-            Aerotech provides electrical and radio services as part of its
-            comprehensive general aviation engineering capabilities. Our
-            services include aircraft electrical and radio installations,
-            component overhauls and bench services.
+            Aerotech Technicians provides specialist electrical and radio
+            engineering support as part of its general aviation maintenance
+            capabilities. Services include aircraft electrical and radio
+            installations, component maintenance and overhaul support, and
+            workshop-based bench services.
           </p>
 
           <p className="mt-4 leading-8 text-slate-600">
-            These services form part of our wider commitment to providing
-            general aviation maintenance and engineering solutions from Charles
-            Prince Airport, Harare.
+            Our electrical and radio capabilities complement our wider aircraft
+            maintenance and engineering services, contributing to the servicing
+            and support of general aviation aircraft at Charles Prince Airport,
+            Harare.
           </p>
 
           <div className="mt-9 grid gap-6 sm:grid-cols-2">

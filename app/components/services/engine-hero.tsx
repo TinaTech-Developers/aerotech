@@ -1,113 +1,109 @@
-import Image from "next/image";
 import Link from "next/link";
 import {
+  MessageSquare,
+  ClipboardList,
+  SearchCheck,
+  CheckCircle2,
   ArrowRight,
-  ArrowUpRight,
-  ChevronRight,
-  Cog,
-  Gauge,
-  Plane,
-  Wrench,
 } from "lucide-react";
 
-export default function EngineHero() {
+const steps = [
+  {
+    icon: MessageSquare,
+    number: "01",
+    title: "Submit Your Enquiry",
+    description:
+      "Contact Aerotech and outline your non-destructive testing, electroplating or corrosion protection requirements.",
+  },
+  {
+    icon: ClipboardList,
+    number: "02",
+    title: "Provide Component Details",
+    description:
+      "Share relevant aircraft or component details, the nature of the inspection or treatment required, and any available technical information.",
+  },
+  {
+    icon: SearchCheck,
+    number: "03",
+    title: "Technical Assessment",
+    description:
+      "Discuss your requirements with our team to establish the appropriate inspection method, surface treatment or specialist service.",
+  },
+  {
+    icon: CheckCircle2,
+    number: "04",
+    title: "Coordinate the Next Steps",
+    description:
+      "Review the proposed service arrangements and coordinate the next steps for your inspection or surface treatment enquiry.",
+  },
+];
+
+export default function NDTProcess() {
   return (
-    <section className="relative isolate min-h-[540px] overflow-hidden bg-[#061D38] lg:min-h-[620px]">
-      <Image
-        src="/images/services/engine-overhaul.jpg"
-        alt="Aircraft engine undergoing maintenance and overhaul"
-        fill
-        priority
-        sizes="100vw"
-        className="object-cover object-center"
-      />
+    <section className="bg-white py-20 sm:py-24">
+      <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
+        <div className="mx-auto max-w-3xl text-center">
+          <span className="text-sm font-bold uppercase tracking-[0.2em] text-cyan-600">
+            Working With Aerotech
+          </span>
 
-      <div className="absolute inset-0 bg-gradient-to-r from-[#04172E]/95 via-[#061D38]/85 to-[#061D38]/30" />
-      <div className="absolute inset-0 bg-gradient-to-t from-[#061D38]/75 via-transparent to-[#061D38]/10" />
+          <h2 className="mt-4 text-3xl font-bold text-[#082B52] sm:text-4xl">
+            Request NDT & Surface Treatment Services
+          </h2>
 
-      <div className="relative mx-auto flex min-h-[540px] max-w-7xl items-center px-5 py-20 sm:px-8 lg:min-h-[620px] lg:px-10">
-        <div className="max-w-3xl">
-          <div className="mb-7 flex flex-wrap items-center gap-2 text-sm font-medium text-blue-100">
-            <Link href="/" className="transition hover:text-white">
-              Home
-            </Link>
-            <ChevronRight size={15} />
-            <Link href="/services" className="transition hover:text-white">
-              Services
-            </Link>
-            <ChevronRight size={15} />
-            <span className="text-cyan-300">Engine & Propeller Overhauls</span>
-          </div>
+          <p className="mt-5 leading-8 text-slate-600">
+            Every service enquiry begins with understanding the component,
+            inspection or surface treatment requirements. Contact our team to
+            discuss the appropriate technical support.
+          </p>
+        </div>
 
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-cyan-300/30 bg-cyan-300/10 px-4 py-2 text-sm font-semibold text-cyan-200 backdrop-blur-sm">
-            <Cog size={16} />
-            Engine & Propeller Engineering
-          </div>
+        <div className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+          {steps.map((step) => {
+            const Icon = step.icon;
 
-          <h1 className="max-w-3xl text-4xl font-bold leading-[1.08] tracking-tight text-white sm:text-5xl md:text-6xl">
-            Engine & Propeller
-            <span className="block text-cyan-300">Overhauls.</span>
-          </h1>
+            return (
+              <div key={step.number}>
+                <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-[#082B52] text-cyan-400">
+                  <Icon size={25} />
+                </div>
 
-          <p className="mt-7 max-w-2xl text-base leading-8 text-slate-200 sm:text-lg">
-            Specialist overhaul and repair capabilities for piston engines,
-            propellers and PT6 engine components, supporting general aviation
-            engineering requirements.
+                <p className="mt-6 text-sm font-bold tracking-widest text-cyan-600">
+                  STEP {step.number}
+                </p>
+
+                <h3 className="mt-2 text-xl font-bold text-[#082B52]">
+                  {step.title}
+                </h3>
+
+                <p className="mt-3 leading-7 text-slate-600">
+                  {step.description}
+                </p>
+              </div>
+            );
+          })}
+        </div>
+
+        <div className="mt-14 rounded-2xl bg-[#082B52] p-8 text-center sm:p-12">
+          <h3 className="text-2xl font-bold text-white sm:text-3xl">
+            Need Specialist Inspection or Surface Treatment?
+          </h3>
+
+          <p className="mx-auto mt-4 max-w-2xl leading-7 text-slate-300">
+            Speak to Aerotech about Magnetic Particle Inspection (MPI),
+            Fluorescent Penetrant Inspection (FPI), cadmium plating, silver
+            plating and other electroplating requirements.
           </p>
 
-          <div className="mt-9 flex flex-col gap-4 sm:flex-row">
-            <Link
-              href="/contact"
-              className="inline-flex items-center justify-center gap-3 rounded-md bg-[#087FC1] px-7 py-4 text-sm font-bold text-white shadow-lg shadow-blue-950/30 transition hover:bg-[#066DA8]"
-            >
-              Enquire About Overhauls
-              <ArrowRight size={18} />
-            </Link>
-
-            <Link
-              href="#engine-capabilities"
-              className="inline-flex items-center justify-center gap-3 rounded-md border border-white/35 bg-white/5 px-7 py-4 text-sm font-bold text-white backdrop-blur-sm transition hover:bg-white/15"
-            >
-              Explore Capabilities
-              <ArrowUpRight size={18} />
-            </Link>
-          </div>
-
-          <div className="mt-12 grid max-w-xl grid-cols-2 gap-5 border-t border-white/20 pt-7 sm:grid-cols-3">
-            <div>
-              <div className="flex items-center gap-2 text-cyan-300">
-                <Cog size={19} />
-                <span className="text-lg font-bold">Piston Engines</span>
-              </div>
-              <p className="mt-2 text-xs leading-5 text-slate-300">
-                Engine and component overhauls
-              </p>
-            </div>
-
-            <div>
-              <div className="flex items-center gap-2 text-cyan-300">
-                <Plane size={19} />
-                <span className="text-lg font-bold">Propellers</span>
-              </div>
-              <p className="mt-2 text-xs leading-5 text-slate-300">
-                Propeller overhaul services
-              </p>
-            </div>
-
-            <div className="col-span-2 sm:col-span-1">
-              <div className="flex items-center gap-2 text-cyan-300">
-                <Gauge size={19} />
-                <span className="text-lg font-bold">PT6 Components</span>
-              </div>
-              <p className="mt-2 text-xs leading-5 text-slate-300">
-                Repairs and overhauls
-              </p>
-            </div>
-          </div>
+          <Link
+            href="/contact"
+            className="mt-8 inline-flex items-center gap-3 rounded-md bg-cyan-500 px-7 py-4 font-semibold text-white transition hover:bg-cyan-400"
+          >
+            Enquire With Aerotech
+            <ArrowRight size={18} />
+          </Link>
         </div>
       </div>
-
-      <div className="absolute bottom-0 left-0 h-1 w-full bg-gradient-to-r from-[#087FC1] via-cyan-300 to-transparent" />
     </section>
   );
 }

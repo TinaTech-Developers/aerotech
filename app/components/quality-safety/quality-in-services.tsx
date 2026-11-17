@@ -5,37 +5,37 @@ const serviceAreas = [
     icon: Plane,
     title: "Aircraft Maintenance",
     description:
-      "Quality responsibility in aircraft maintenance, repair and rebuilding activities.",
+      "Maintenance, inspections, repairs and rebuilding carried out with attention to aircraft safety, technical requirements and continued airworthiness.",
   },
   {
     icon: Settings,
     title: "Engine & Propeller Services",
     description:
-      "A commitment to quality across engine and propeller overhaul services.",
+      "Piston engine maintenance and overhauls, propeller servicing and specialist repair and overhaul support for applicable PT6A components.",
   },
   {
     icon: Gauge,
     title: "Instrument Testing & Calibration",
     description:
-      "Attention to measurement requirements across pressure, temperature, electrical and standard instruments.",
+      "Testing and calibration services for pressure, temperature, electrical and dimensional measurement instruments.",
   },
   {
     icon: Wrench,
     title: "Airframe Engineering",
     description:
-      "Quality workmanship in sheet metal work, structural repairs and aircraft refurbishment.",
+      "Structural repairs, sheet metal fabrication, aircraft fabric and fibreglass work, welding and precision engineering.",
   },
   {
     icon: Radio,
     title: "Electrical & Radio Services",
     description:
-      "Quality considerations in aircraft electrical and radio installations, component overhauls and bench services.",
+      "Aircraft electrical and radio installations, component maintenance and specialist workshop-based technical support.",
   },
   {
     icon: Search,
     title: "NDT & Corrosion Protection",
     description:
-      "Inspection and corrosion protection capabilities supporting aircraft engineering.",
+      "Non-destructive testing capabilities, including Magnetic Particle and Fluorescent Penetrant Inspection, alongside electroplating and surface treatment services.",
   },
 ];
 
@@ -54,16 +54,18 @@ export default function QualityInServices() {
             </h2>
 
             <p className="mt-6 leading-8 text-slate-600">
-              Aerotech provides a range of general aviation maintenance and
-              engineering services. Our commitment to quality extends across
-              these capabilities and the work we undertake for our customers.
+              Aerotech Technicians brings together a range of aircraft
+              maintenance, engineering and specialist aviation support
+              capabilities. Across these service areas, we recognise the
+              importance of technical responsibility, careful workmanship and
+              attention to detail.
             </p>
 
             <p className="mt-4 leading-8 text-slate-600">
-              From aircraft maintenance and engine services to instrument
-              testing, electrical installations and specialist engineering, we
-              recognise the importance of responsibility and quality
-              workmanship.
+              From aircraft maintenance and engine overhauls to instrument
+              calibration, airframe engineering, electrical and radio systems
+              and non-destructive testing, our multidisciplinary capabilities
+              support a coordinated approach to general aviation maintenance.
             </p>
 
             <div className="mt-8 rounded-xl bg-[#082B52] p-7 text-white">

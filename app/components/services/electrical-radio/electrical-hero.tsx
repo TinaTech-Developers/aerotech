@@ -19,18 +19,20 @@ export default function ElectricalHero() {
         <div className="max-w-3xl">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-cyan-400/30 bg-cyan-400/10 px-4 py-2 text-sm font-semibold text-cyan-300">
             <Radio size={16} />
-            Electrical & Radio Engineering
+            Aircraft Electrical & Radio Systems
           </div>
 
           <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
             Aircraft Electrical
-            <span className="block text-cyan-400">& Radio Services</span>
+            <span className="block text-cyan-400">& Radio Engineering</span>
           </h1>
 
           <p className="mt-7 max-w-2xl text-base leading-8 text-slate-200 sm:text-lg">
-            Specialist electrical and radio installations, component overhauls
-            and bench services supporting the electrical and communication
-            systems of general aviation aircraft.
+            Aerotech Technicians provides specialist support for aircraft
+            electrical and radio systems, including servicing, repairs and
+            installation work. Our capabilities support the maintenance and
+            functionality of general aviation aircraft electrical and
+            communication equipment.
           </p>
 
           <div className="mt-9 flex flex-wrap gap-4">

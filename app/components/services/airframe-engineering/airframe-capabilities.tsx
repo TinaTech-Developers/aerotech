@@ -13,63 +13,65 @@ import {
 const capabilities = [
   {
     number: "01",
-    title: "Sheet Metal Work",
+    title: "Sheet Metal Fabrication & Repairs",
     description:
-      "Aircraft sheet metal work as part of Aerotech's airframe engineering and repair capabilities.",
+      "Aircraft sheet metal fabrication and repair services supporting airframe maintenance, structural restoration and aircraft integrity.",
     icon: Hammer,
   },
   {
     number: "02",
-    title: "Stressed-Skin Repairs",
-    description: "Repair work involving aircraft stressed-skin structures.",
+    title: "Stressed-Skin Structural Repairs",
+    description:
+      "Specialist repair work involving stressed-skin aircraft structures to support structural integrity and continued serviceability.",
     icon: ShieldCheck,
   },
   {
     number: "03",
-    title: "Aircraft Refurbishment",
+    title: "Aircraft Refurbishment & Painting",
     description:
-      "Complete aircraft refurbishment services, including spray painting.",
+      "Aircraft refurbishment, surface restoration and spray painting to support the renewal and presentation of aircraft.",
     icon: Paintbrush,
   },
   {
     number: "04",
     title: "Aircraft Weighing",
     description:
-      "Aircraft weighing services supporting aviation engineering requirements.",
+      "Aircraft weighing services to establish accurate weight data and support aircraft weight and balance documentation.",
     icon: Gauge,
   },
   {
     number: "05",
-    title: "Fabric Work",
+    title: "Aircraft Fabric Work",
     description:
-      "Aircraft fabric work included within Aerotech's broader repair capabilities.",
+      "Specialist aircraft fabric work supporting the repair and restoration of applicable fabric-covered airframe sections.",
     icon: Layers3,
   },
   {
     number: "06",
-    title: "Fibreglass Work",
+    title: "Fibreglass Repairs",
     description:
-      "Fibre glass work as part of the company's aircraft engineering services.",
+      "Fibreglass repair and restoration work supporting aircraft components and associated airframe engineering requirements.",
     icon: Ruler,
   },
   {
     number: "07",
-    title: "General Machining",
+    title: "General Machining & Precision Engineering",
     description:
-      "General machining services supporting engineering and component work.",
+      "General machining and precision engineering services supporting the fabrication, repair and maintenance of engineering components.",
     icon: Wrench,
   },
   {
     number: "08",
-    title: "Aluminium Welding",
-    description: "Welding services, including aluminium welding.",
+    title: "Welding & Metal Fabrication",
+    description:
+      "Metal fabrication and welding services, including aluminium welding, for specialist engineering and repair requirements.",
     icon: Cable,
   },
   {
     number: "09",
-    title: "Supporting Technical Services",
+    title: "Specialist Inspection & Technical Support",
     description:
-      "Additional specialist capabilities include non-destructive testing and aircraft component services.",
+      "Supporting technical capabilities include non-destructive testing, aircraft cable fabrication and specialist component services.",
     icon: ClipboardCheck,
   },
 ];
@@ -95,8 +97,9 @@ export default function AirframeCapabilities() {
           </h2>
 
           <p className="mt-5 text-base leading-8 text-slate-600">
-            Explore Aerotech's airframe repair, refurbishment and associated
-            engineering capabilities.
+            Our airframe engineering capabilities cover structural repairs,
+            aircraft refurbishment, specialist fabrication and precision
+            engineering services that support general aviation maintenance.
           </p>
         </div>
 
@@ -139,13 +142,14 @@ export default function AirframeCapabilities() {
 
             <div>
               <h3 className="text-xl font-bold text-white">
-                Connected Aviation Engineering Services
+                Integrated Aviation Engineering Support
               </h3>
               <p className="mt-2 max-w-2xl text-sm leading-7 text-blue-100/80">
-                Airframe engineering forms part of Aerotech's wider technical
-                offering, which includes engine and propeller services,
-                electrical and radio installations, instrument repairs and
-                non-destructive testing.
+                Airframe engineering forms part of Aerotech's wider aviation
+                support offering, which includes aircraft maintenance, engine
+                and propeller services, instrument testing and calibration,
+                electrical and radio systems, non-destructive testing and
+                specialist component support.
               </p>
             </div>
           </div>

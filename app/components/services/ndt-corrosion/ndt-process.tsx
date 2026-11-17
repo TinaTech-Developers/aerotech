@@ -11,30 +11,30 @@ const steps = [
   {
     icon: MessageSquare,
     number: "01",
-    title: "Make an Enquiry",
+    title: "Submit Your Enquiry",
     description:
-      "Contact Aerotech with your NDT or corrosion protection requirements.",
+      "Contact Aerotech and outline your non-destructive testing, electroplating or corrosion protection requirements.",
   },
   {
     icon: ClipboardList,
     number: "02",
     title: "Provide Component Details",
     description:
-      "Share information about the aircraft, component or surface requiring attention.",
+      "Share relevant aircraft or component details, the nature of the inspection or treatment required, and any available technical information.",
   },
   {
     icon: SearchCheck,
     number: "03",
-    title: "Discuss the Requirements",
+    title: "Technical Assessment",
     description:
-      "Our team discusses the requested inspection or corrosion protection service.",
+      "Discuss your requirements with our team to establish the appropriate inspection method, surface treatment or specialist service.",
   },
   {
     icon: CheckCircle2,
     number: "04",
-    title: "Coordinate the Service",
+    title: "Coordinate the Next Steps",
     description:
-      "Follow up with our team regarding the service enquiry and agreed next steps.",
+      "Review the proposed service arrangements and coordinate the next steps for your inspection or surface treatment enquiry.",
   },
 ];
 
@@ -48,12 +48,13 @@ export default function NDTProcess() {
           </span>
 
           <h2 className="mt-4 text-3xl font-bold text-[#082B52] sm:text-4xl">
-            Start Your Service Enquiry
+            Request NDT & Surface Treatment Services
           </h2>
 
           <p className="mt-5 leading-8 text-slate-600">
-            Tell us about your inspection or corrosion protection requirements
-            so our team can discuss the appropriate service.
+            Every service enquiry begins with understanding the component,
+            inspection or surface treatment requirements. Contact our team to
+            discuss the appropriate technical support.
           </p>
         </div>
 
@@ -85,20 +86,20 @@ export default function NDTProcess() {
 
         <div className="mt-14 rounded-2xl bg-[#082B52] p-8 text-center sm:p-12">
           <h3 className="text-2xl font-bold text-white sm:text-3xl">
-            Discuss Your Inspection Requirements
+            Need Specialist Inspection or Surface Treatment?
           </h3>
 
           <p className="mx-auto mt-4 max-w-2xl leading-7 text-slate-300">
-            Contact Aerotech to discuss Non-Destructive Testing, corrosion
-            protection, cadmium plating, silver plating and other plating
-            services.
+            Speak to Aerotech about Magnetic Particle Inspection (MPI),
+            Fluorescent Penetrant Inspection (FPI), cadmium plating, silver
+            plating and other electroplating requirements.
           </p>
 
           <Link
             href="/contact"
             className="mt-8 inline-flex items-center gap-3 rounded-md bg-cyan-500 px-7 py-4 font-semibold text-white transition hover:bg-cyan-400"
           >
-            Contact Our Team
+            Enquire With Aerotech
             <ArrowRight size={18} />
           </Link>
         </div>
@@ -106,4 +107,3 @@ export default function NDTProcess() {
     </section>
   );
 }
-

@@ -20,7 +20,12 @@ const references = [
     icon: Plane,
     number: "02",
   },
-  { name: "AGRIC AIR", category: "Aviation", icon: Plane, number: "03" },
+  {
+    name: "AGRIC AIR",
+    category: "Aviation",
+    icon: Plane,
+    number: "03",
+  },
   {
     name: "HAC",
     category: "Aviation",
@@ -71,7 +76,7 @@ const references = [
   },
   {
     name: "Schweppes Zimbabwe Limited",
-    category: "Industry",
+    category: "Industrial & Commercial",
     icon: Factory,
     number: "12",
   },
@@ -89,7 +94,7 @@ export default function ReferencesList() {
       <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
         <div className="mx-auto max-w-3xl text-center">
           <span className="text-sm font-bold uppercase tracking-[0.2em] text-[#087FC1]">
-            Organisations
+            Industry Experience
           </span>
 
           <h2 className="mt-4 text-3xl font-bold text-[#082B52] sm:text-4xl">
@@ -97,8 +102,11 @@ export default function ReferencesList() {
           </h2>
 
           <p className="mt-5 leading-8 text-slate-600">
-            The following organisations appear in Aerotech's company reference
-            information.
+            Aerotech Technicians' company reference information includes
+            organisations from across the aviation, aviation training, civil
+            aviation and industrial sectors. These references reflect the
+            breadth of industry engagement represented in our company profile
+            and aviation experience.
           </p>
         </div>
 
@@ -149,10 +157,10 @@ export default function ReferencesList() {
             <Building2 size={21} className="mt-0.5 shrink-0 text-[#087FC1]" />
 
             <p className="text-sm leading-7 text-slate-600">
-              The organisations listed are presented as references from company
-              information supplied to Aerotech. Their appearance on this page
-              does not, by itself, imply endorsement, sponsorship, partnership
-              or a current client relationship.
+              The organisations listed are drawn from company reference
+              information supplied to Aerotech Technicians. Their inclusion does
+              not, by itself, imply endorsement, sponsorship, partnership or a
+              current client relationship.
             </p>
           </div>
         </div>

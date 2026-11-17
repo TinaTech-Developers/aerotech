@@ -13,38 +13,42 @@ const capabilities = [
     number: "01",
     title: "Aircraft Electrical Installations",
     description:
-      "Electrical installation services for general aviation aircraft.",
+      "Installation and servicing support for aircraft electrical systems and associated equipment used in general aviation.",
   },
   {
     icon: Radio,
     number: "02",
     title: "Aircraft Radio Installations",
     description:
-      "Installation services for aircraft radio and communication equipment.",
+      "Installation and technical support for aircraft radio equipment and onboard communication systems.",
   },
   {
     icon: Settings,
     number: "03",
     title: "Electrical Component Overhauls",
-    description: "Overhaul services for aircraft electrical components.",
+    description:
+      "Overhaul and maintenance support for aircraft electrical components to help maintain their serviceability and operational reliability.",
   },
   {
     icon: CircuitBoard,
     number: "04",
     title: "Radio Component Overhauls",
-    description: "Overhaul services for aircraft radio components.",
+    description:
+      "Maintenance and overhaul support for aircraft radio components and communication equipment.",
   },
   {
     icon: Wrench,
     number: "05",
-    title: "Electrical Bench Services",
-    description: "Bench services for aircraft electrical components.",
+    title: "Electrical Component Bench Services",
+    description:
+      "Workshop-based bench services for the inspection, servicing and maintenance of aircraft electrical components.",
   },
   {
     icon: Gauge,
     number: "06",
-    title: "Radio Bench Services",
-    description: "Bench services for aircraft radio components.",
+    title: "Radio Component Bench Services",
+    description:
+      "Bench services and technical support for aircraft radio components as part of wider electrical and communication system maintenance.",
   },
 ];
 
@@ -62,8 +66,9 @@ export default function ElectricalCapabilities() {
           </h2>
 
           <p className="mt-5 leading-8 text-slate-600">
-            Our electrical and radio capabilities cover installations, component
-            overhauls and bench services for general aviation aircraft.
+            Aerotech's electrical and radio engineering capabilities include
+            aircraft system installations, component maintenance and overhaul
+            support, and specialist workshop-based bench services.
           </p>
         </div>
 

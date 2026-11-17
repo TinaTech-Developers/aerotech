@@ -15,63 +15,63 @@ const capabilities = [
     number: "01",
     title: "Aircraft Maintenance & Rebuilding",
     description:
-      "Maintenance, repair and rebuilding services for general aviation aircraft within the stated 5,700 kg Maximum All-up Weight category.",
+      "Aircraft servicing, scheduled maintenance, inspections, repairs and rebuilding for general aviation aircraft within Aerotech's authorised maintenance scope.",
     icon: Plane,
   },
   {
     number: "02",
     title: "Sheet Metal & Structural Repairs",
     description:
-      "Sheet metal work and stressed-skin repairs as part of Aerotech's airframe engineering capabilities.",
+      "Airframe engineering, sheet metal fabrication, stressed-skin repairs and structural restoration to support aircraft integrity and serviceability.",
     icon: Hammer,
   },
   {
     number: "03",
-    title: "Aircraft Refurbishment",
+    title: "Aircraft Refurbishment & Painting",
     description:
-      "Complete aircraft refurbishment services, including spray painting.",
+      "Aircraft refurbishment, surface restoration and spray painting to support the maintenance, appearance and preservation of aircraft.",
     icon: Paintbrush,
   },
   {
     number: "04",
     title: "Aircraft Weighing",
     description:
-      "Aircraft weighing services as part of the company's wider aviation engineering offering.",
+      "Aircraft weighing services to establish weight data and support accurate aircraft weight and balance records.",
     icon: Gauge,
   },
   {
     number: "05",
     title: "Fabric & Fibreglass Work",
     description:
-      "Fabric and fibre glass work supporting Aerotech's aircraft engineering and repair capabilities.",
+      "Specialist fabric and fibreglass repairs supporting aircraft structural maintenance, component restoration and airframe engineering.",
     icon: Ruler,
   },
   {
     number: "06",
-    title: "Welding & Machining",
+    title: "Welding & Precision Machining",
     description:
-      "General machining and welding capabilities, including aluminium welding.",
+      "Workshop engineering services encompassing general machining, metal fabrication and aluminium welding for specialist repair requirements.",
     icon: Wrench,
   },
   {
     number: "07",
-    title: "Cable Fabrication",
+    title: "Aircraft Cable Fabrication",
     description:
-      "Cable fabrication services supporting aircraft engineering requirements.",
+      "Aircraft cable fabrication and associated engineering support for aircraft maintenance and component requirements.",
     icon: Cable,
   },
   {
     number: "08",
-    title: "Non-Destructive Testing",
+    title: "Non-Destructive Testing (NDT)",
     description:
-      "Non-Destructive Testing (NDT) as part of Aerotech's broader technical service offering.",
+      "Specialist inspection techniques, including Magnetic Particle Inspection and Fluorescent Penetrant Inspection, to help identify material and surface defects.",
     icon: ShieldCheck,
   },
   {
     number: "09",
     title: "Seatbelt Proof Loading",
     description:
-      "Proof loading of aircraft seatbelts as one of the company's specialist engineering services.",
+      "Aircraft seatbelt proof-loading services as part of Aerotech's specialist aviation testing and engineering capabilities.",
     icon: ClipboardCheck,
   },
 ];
@@ -83,6 +83,7 @@ export default function MaintenanceCapabilities() {
       className="scroll-mt-24 bg-[#F4F7FB] py-20 sm:py-24"
     >
       <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
+        {/* Section heading */}
         <div className="mx-auto max-w-3xl text-center">
           <div className="mb-5 flex items-center justify-center gap-3">
             <span className="h-[2px] w-9 bg-[#087FC1]" />
@@ -93,15 +94,19 @@ export default function MaintenanceCapabilities() {
           </div>
 
           <h2 className="text-3xl font-bold leading-tight tracking-tight text-[#082B52] sm:text-4xl">
-            Aircraft Engineering & Maintenance Capabilities
+            Specialist Aircraft Engineering & Maintenance
           </h2>
 
           <p className="mt-5 text-base leading-8 text-slate-600">
-            Our range of technical capabilities supports aircraft maintenance,
-            repair, refurbishment and associated engineering requirements.
+            Aerotech brings together a range of aviation engineering and
+            technical capabilities to support aircraft maintenance, structural
+            repairs, refurbishment and specialist inspection requirements. Our
+            multidisciplinary approach contributes to reliable maintenance
+            support and aircraft serviceability.
           </p>
         </div>
 
+        {/* Capabilities grid */}
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {capabilities.map((capability) => {
             const Icon = capability.icon;
@@ -133,6 +138,7 @@ export default function MaintenanceCapabilities() {
           })}
         </div>
 
+        {/* Integrated aviation support */}
         <div className="mt-12 rounded-2xl bg-[#082B52] p-7 sm:p-9 lg:flex lg:items-center lg:justify-between lg:gap-10">
           <div className="flex items-start gap-4">
             <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-white/10 text-cyan-300">
@@ -141,13 +147,15 @@ export default function MaintenanceCapabilities() {
 
             <div>
               <h3 className="text-xl font-bold text-white">
-                Integrated Technical Capabilities
+                Integrated Aviation Support Services
               </h3>
+
               <p className="mt-2 max-w-2xl text-sm leading-7 text-blue-100/80">
-                Aerotech also provides specialist services in engine and
-                propeller overhauls, electrical and radio installations,
-                instrument repairs, component bench services and aircraft
-                spares.
+                Aerotech's wider technical capabilities also encompass engine
+                and propeller maintenance and overhauls, instrument testing and
+                calibration, electrical and radio systems, component support,
+                electroplating and aircraft spares. These services contribute to
+                our one-stop aviation maintenance and engineering offering.
               </p>
             </div>
           </div>

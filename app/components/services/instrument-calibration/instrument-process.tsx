@@ -11,30 +11,30 @@ const steps = [
   {
     icon: MessageSquare,
     number: "01",
-    title: "Make an Enquiry",
+    title: "Submit Your Enquiry",
     description:
-      "Contact Aerotech and tell us about the instruments you need tested or calibrated.",
+      "Contact Aerotech and outline your instrument testing or calibration requirements, including the type of equipment involved.",
   },
   {
     icon: ClipboardList,
     number: "02",
-    title: "Provide Equipment Details",
+    title: "Provide Instrument Details",
     description:
-      "Share the instrument type, relevant specifications and your service requirements.",
+      "Share the instrument type, measurement range, relevant specifications and any available equipment or service records.",
   },
   {
     icon: SearchCheck,
     number: "03",
-    title: "Discuss the Requirements",
+    title: "Technical Assessment",
     description:
-      "Our team discusses the equipment and the requested instrument service.",
+      "Discuss your requirements with our team to establish the nature of the instrument, applicable testing needs and available service options.",
   },
   {
     icon: CheckCircle2,
     number: "04",
-    title: "Follow Up",
+    title: "Coordinate the Next Steps",
     description:
-      "Our team can guide you on the next steps for your instrument service enquiry.",
+      "Review the proposed service arrangements and coordinate the next steps for your instrument testing or calibration enquiry.",
   },
 ];
 
@@ -48,12 +48,13 @@ export default function InstrumentProcess() {
           </span>
 
           <h2 className="mt-4 text-3xl font-bold text-[#082B52] sm:text-4xl">
-            Request an Instrument Service
+            Request Instrument Testing & Calibration
           </h2>
 
           <p className="mt-5 leading-8 text-slate-600">
-            Get in touch with our team to discuss the instruments you need
-            tested or calibrated.
+            Every instrument service begins with understanding your equipment
+            and measurement requirements. Contact our team to discuss the
+            appropriate testing or calibration support.
           </p>
         </div>
 
@@ -85,19 +86,20 @@ export default function InstrumentProcess() {
 
         <div className="mt-14 rounded-2xl bg-[#082B52] p-8 text-center sm:p-12">
           <h3 className="text-2xl font-bold text-white sm:text-3xl">
-            Need an Instrument Tested or Calibrated?
+            Need Specialist Instrument Testing or Calibration?
           </h3>
 
           <p className="mx-auto mt-4 max-w-2xl leading-7 text-slate-300">
-            Contact Aerotech to discuss your pressure, temperature, electrical
-            or standard measurement instrument requirements.
+            Speak to Aerotech about pressure, temperature, electrical and
+            dimensional measurement equipment, and discuss your instrument
+            testing and calibration requirements.
           </p>
 
           <Link
             href="/contact"
             className="mt-8 inline-flex items-center gap-3 rounded-md bg-cyan-500 px-7 py-4 font-semibold text-white transition hover:bg-cyan-400"
           >
-            Contact Our Team
+            Enquire With Aerotech
             <ArrowRight size={18} />
           </Link>
         </div>

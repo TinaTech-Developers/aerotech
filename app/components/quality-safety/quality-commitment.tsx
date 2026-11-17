@@ -4,27 +4,27 @@ import { ShieldCheck, Target, Users, Award } from "lucide-react";
 const commitments = [
   {
     icon: ShieldCheck,
-    title: "Safety-Conscious Operations",
+    title: "Safety & Airworthiness",
     description:
-      "Recognising the importance of safety in aircraft maintenance and engineering activities.",
+      "Recognising our responsibility to support aircraft safety and continued airworthiness through careful maintenance and engineering practices.",
   },
   {
     icon: Target,
-    title: "Quality Workmanship",
+    title: "Quality & Excellence",
     description:
-      "Maintaining a commitment to quality in the services and work delivered.",
+      "Applying technical care, attention to detail and professional workmanship across our maintenance and engineering services.",
   },
   {
     icon: Users,
-    title: "Teamwork & Communication",
+    title: "Teamwork & Collaboration",
     description:
-      "Working towards common goals through collaboration and communication with stakeholders.",
+      "Working together, sharing technical knowledge and communicating effectively with customers and stakeholders.",
   },
   {
     icon: Award,
     title: "Integrity & Accountability",
     description:
-      "Inspiring trust through honesty, accountability and ethical conduct.",
+      "Acting with honesty, professionalism and accountability in our decisions, conduct and service delivery.",
   },
 ];
 
@@ -38,20 +38,21 @@ export default function QualityCommitment() {
           </span>
 
           <h2 className="mt-4 text-3xl font-bold leading-tight text-[#082B52] sm:text-4xl">
-            Quality Is Our Responsibility
+            Safety in Every Detail. Excellence in Every Task.
           </h2>
 
           <p className="mt-6 leading-8 text-slate-600">
-            Aircraft maintenance and engineering demand responsibility,
-            attention to detail and a commitment to quality. At Aerotech, we
-            recognise that the quality of our work has an important bearing on
-            the safety and reliability of aircraft.
+            Aircraft maintenance and engineering demand precision,
+            responsibility and consistent attention to detail. At Aerotech
+            Technicians, we recognise the importance of quality workmanship in
+            supporting aircraft safety, reliability and continued airworthiness.
           </p>
 
           <p className="mt-4 leading-8 text-slate-600">
-            Our commitment is reflected in our values of commitment, teamwork,
-            integrity and excellence. These principles guide our approach to
-            serving customers and working with stakeholders.
+            Our approach is guided by four core values: Commitment, Teamwork,
+            Integrity and Excellence. These principles shape how we approach our
+            technical responsibilities, serve our customers and work with our
+            industry stakeholders.
           </p>
 
           <div className="mt-9 border-l-4 border-cyan-500 bg-[#F5F8FC] p-6">
