@@ -1,39 +1,21 @@
 import Link from "next/link";
-import {
-  ArrowRight,
-  Building2,
-  Plane,
-  ShieldCheck,
-  Landmark,
-  Factory,
-  GraduationCap,
-} from "lucide-react";
+import { ArrowRight, Building2, Plane, ShieldCheck, Users } from "lucide-react";
 
 const references = [
+  {
+    name: "Grand Air Charters",
+    category: "Aviation & Air Charter",
+    icon: Plane,
+  },
   {
     name: "Air Force of Zimbabwe",
     category: "Aviation & Defence",
     icon: ShieldCheck,
   },
   {
-    name: "ZASTI",
-    category: "Aviation Training",
-    icon: GraduationCap,
-  },
-  {
-    name: "Zambia Air Services",
-    category: "Aviation Services",
-    icon: Plane,
-  },
-  {
-    name: "Schweppes Zimbabwe Limited",
-    category: "Industry & Manufacturing",
-    icon: Factory,
-  },
-  {
-    name: "Civil Aviation Authority of Zimbabwe",
-    category: "Civil Aviation",
-    icon: Landmark,
+    name: "CATS",
+    category: "Aviation & Technical Services",
+    icon: Users,
   },
 ];
 
@@ -49,31 +31,30 @@ export default function ClientsReferences() {
         <div className="mx-auto mb-14 max-w-3xl text-center">
           <span className="mb-4 inline-flex items-center gap-2 rounded-full border border-sky-100 bg-sky-50 px-4 py-2 text-xs font-bold uppercase tracking-[0.18em] text-[#087FC1]">
             <Building2 size={15} />
-            Our Industry Connections
+            Professional Relationships
           </span>
 
           <h2 className="text-3xl font-extrabold tracking-tight text-[#082B52] sm:text-4xl lg:text-5xl">
-            Our Clients & <span className="text-[#087FC1]">References</span>
+            Our Industry <span className="text-[#087FC1]">References</span>
           </h2>
 
           <p className="mt-5 text-base leading-7 text-slate-600 sm:text-lg">
-            Aerotech's company reference information includes organisations
-            across aviation, training and industry. These references reflect the
-            breadth of sectors represented in our professional network.
+            Our experience in the aviation sector is reflected in our
+            professional relationships and industry engagements. We value the
+            trust placed in our technical capabilities and commitment to
+            dependable aviation support.
           </p>
         </div>
 
         {/* Reference cards */}
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {references.map((reference, index) => {
+        <div className="mx-auto grid max-w-5xl gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {references.map((reference) => {
             const Icon = reference.icon;
 
             return (
               <div
                 key={reference.name}
-                className={`group relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-sky-200 hover:shadow-xl ${
-                  index === 0 ? "lg:col-span-1" : ""
-                }`}
+                className="group relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-sky-200 hover:shadow-xl"
               >
                 <div className="absolute right-0 top-0 h-24 w-24 rounded-bl-full bg-sky-50 transition-colors duration-300 group-hover:bg-sky-100" />
 
@@ -107,12 +88,13 @@ export default function ClientsReferences() {
               </div>
 
               <h3 className="text-2xl font-bold leading-tight text-white sm:text-3xl">
-                Looking for a dependable aviation engineering partner?
+                Your Trusted Partner in Aviation Maintenance and Engineering.
               </h3>
 
               <p className="mt-3 leading-7 text-blue-100/75">
-                Speak to our team about aircraft maintenance, engineering
-                services and instrument testing and calibration.
+                Whether you require aircraft maintenance, engine and propeller
+                services, instrument calibration or specialist engineering
+                support, our team is ready to discuss your requirements.
               </p>
             </div>
 
@@ -127,9 +109,9 @@ export default function ClientsReferences() {
         </div>
 
         <p className="mt-6 text-center text-xs leading-6 text-slate-400">
-          Organisations are listed as references in Aerotech's company
-          information. Their inclusion does not necessarily imply endorsement or
-          partnership.
+          References are presented for informational purposes, subject to
+          permission for publication. Their inclusion does not necessarily imply
+          current contractual relationships, endorsement or partnership.
         </p>
       </div>
     </section>

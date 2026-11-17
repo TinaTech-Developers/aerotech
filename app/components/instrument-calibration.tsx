@@ -14,21 +14,21 @@ const categories = [
   {
     number: "01",
     icon: Gauge,
-    title: "Pressure Testing",
+    title: "Pressure Instrument Testing",
     description:
-      "Testing and certification of pressure measurement instruments.",
+      "Testing and calibration of pressure measurement instruments to support reliable readings and dependable equipment performance.",
     instruments: [
       "Gas pressure gauges",
-      "Liquid flow pressure gauges",
-      "Gauges and regulators",
+      "Liquid pressure gauges",
+      "Pressure gauges and regulators",
     ],
   },
   {
     number: "02",
     icon: Thermometer,
-    title: "Temperature Testing",
+    title: "Temperature Instrument Testing",
     description:
-      "Testing and certification of temperature measurement and control instruments.",
+      "Testing and calibration of temperature measurement and control equipment used in technical, industrial and laboratory applications.",
     instruments: [
       "Incubators and liquid baths",
       "Temperature indicators and recorders",
@@ -38,9 +38,9 @@ const categories = [
   {
     number: "03",
     icon: Activity,
-    title: "Electrical Testing",
+    title: "Electrical Instrument Testing",
     description:
-      "Testing and certification of electrical measurement and testing equipment.",
+      "Testing and calibration of electrical measurement instruments and equipment used for monitoring and verifying electrical parameters.",
     instruments: [
       "AC/DC ammeters and voltmeters",
       "Multimeters and insulation testers",
@@ -50,9 +50,9 @@ const categories = [
   {
     number: "04",
     icon: Ruler,
-    title: "Standard Measurements",
+    title: "Dimensional & Standard Measurements",
     description:
-      "Testing and certification of dimensional, mechanical and other measurement instruments.",
+      "Measurement and testing services for dimensional, mechanical and other precision instruments used in technical and engineering environments.",
     instruments: [
       "Micrometers and Vernier callipers",
       "Depth and height gauges",
@@ -70,7 +70,7 @@ export default function InstrumentCalibration() {
           <div>
             <div className="mb-4 flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-[#087FC1]">
               <span className="h-0.5 w-8 bg-[#19B5E5]" />
-              Precision & Technical Services
+              Specialist Technical Services
             </div>
 
             <h2 className="max-w-2xl text-3xl font-bold leading-tight text-[#082B52] sm:text-4xl lg:text-5xl">
@@ -81,10 +81,11 @@ export default function InstrumentCalibration() {
 
           <div>
             <p className="max-w-xl text-base leading-8 text-slate-600">
-              Aerotech provides testing and certification services across a
-              broad range of measurement instruments. Our capabilities cover
-              pressure, temperature, electrical indicators and standard
-              measurement equipment.
+              Aerotech provides instrument testing and calibration services
+              across a range of pressure, temperature, electrical, dimensional
+              and mechanical measurement equipment. Our capabilities support
+              customers who depend on accurate measurements, reliable
+              instruments and consistent technical performance.
             </p>
 
             <Link
@@ -105,7 +106,7 @@ export default function InstrumentCalibration() {
           <div className="relative min-h-[400px] overflow-hidden rounded-xl bg-[#061D38] lg:min-h-full">
             <Image
               src="/images/calibration-laboratory.jpg"
-              alt="Precision measurement and instrument calibration equipment"
+              alt="Precision measurement and instrument testing equipment"
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 40vw"
@@ -119,16 +120,17 @@ export default function InstrumentCalibration() {
               </div>
 
               <p className="text-xs font-bold uppercase tracking-[0.2em] text-cyan-300">
-                Aerotech Technical Capabilities
+                Specialist Calibration Services
               </p>
 
               <h3 className="mt-3 max-w-md text-2xl font-bold leading-tight text-white sm:text-3xl">
-                Precision Testing Across Multiple Instrument Categories
+                Supporting Accuracy Across Multiple Instrument Categories
               </h3>
 
               <p className="mt-4 max-w-md text-sm leading-7 text-slate-300">
-                Supporting a range of measurement and testing requirements
-                through our instrument testing and certification services.
+                From pressure and temperature instruments to electrical and
+                dimensional measurement equipment, our technical capabilities
+                support a wide range of testing requirements.
               </p>
 
               <Link
@@ -194,18 +196,19 @@ export default function InstrumentCalibration() {
         <div className="mt-8 flex flex-col justify-between gap-5 rounded-xl bg-[#082B52] px-6 py-7 sm:flex-row sm:items-center sm:px-9">
           <div>
             <h3 className="text-lg font-bold text-white">
-              Looking for a specific instrument calibration service?
+              Need Testing or Calibration for Your Equipment?
             </h3>
             <p className="mt-2 text-sm leading-6 text-slate-300">
-              Explore the full list of instruments covered by Aerotech.
+              Contact our team to discuss your instrument, measurement or
+              technical testing requirements.
             </p>
           </div>
 
           <Link
-            href="/services/instrument-calibration"
+            href="/contact"
             className="inline-flex shrink-0 items-center justify-center gap-3 rounded-md bg-[#087FC1] px-6 py-3.5 text-sm font-bold text-white transition hover:bg-[#19B5E5]"
           >
-            View All Capabilities
+            Make an Enquiry
             <ArrowUpRight size={17} />
           </Link>
         </div>

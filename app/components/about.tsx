@@ -13,31 +13,33 @@ import {
 const highlights = [
   {
     icon: Award,
-    title: "Established in 2003",
-    description: "Over two decades of aviation industry experience.",
+    title: "50+ Years of Experience",
+    description: "More than five decades of supporting aviation in Zimbabwe.",
   },
   {
     icon: Building2,
     title: "KSM Group Member",
-    description: "Part of the KSM Group of companies.",
+    description: "Proud member of the KSM Group of companies.",
   },
   {
     icon: Plane,
-    title: "General Aviation",
-    description: "Aircraft maintenance up to 5,700 kg MAUW.",
+    title: "CAAZ Approved AMO",
+    description:
+      "Approved aircraft maintenance capability up to 5,700 kg MAUW.",
   },
   {
     icon: Wrench,
-    title: "Technical Expertise",
-    description: "Aircraft engineering and instrument calibration.",
+    title: "One-Stop Aviation Support",
+    description:
+      "Maintenance, engineering, calibration and specialist technical services.",
   },
 ];
 
 const values = [
-  "Commitment to quality and affordable service",
-  "Teamwork and collaboration",
-  "Integrity and accountability",
-  "Excellence in every task",
+  "Reliability in every service we deliver",
+  "Comprehensive aviation support under one roof",
+  "Integrity, accountability and teamwork",
+  "Commitment to quality and excellence",
 ];
 
 export default function About() {
@@ -66,8 +68,10 @@ export default function About() {
           </h2>
 
           <p className="mt-5 text-base leading-8 text-slate-600">
-            Your trusted partner in aircraft maintenance, aviation engineering
-            and precision instrument calibration.
+            Zimbabwe's one-stop shop for aircraft maintenance, engineering and
+            specialist aviation support services. Built on more than five
+            decades of aviation experience, we are committed to reliability,
+            quality and keeping our customers flying with confidence.
           </p>
         </div>
 
@@ -103,8 +107,10 @@ export default function About() {
               </div>
 
               <div>
-                <p className="text-2xl font-black text-white">2003</p>
-                <p className="text-xs font-medium text-blue-100">Established</p>
+                <p className="text-2xl font-black text-white">50+</p>
+                <p className="text-xs font-medium text-blue-100">
+                  Years of Aviation Experience
+                </p>
               </div>
             </div>
 
@@ -119,32 +125,42 @@ export default function About() {
             </span>
 
             <h3 className="mt-4 text-2xl font-bold leading-snug text-[#082B52] sm:text-3xl">
-              Supporting Aviation Through Engineering Expertise
+              Everything Aviation. Under One Roof.
             </h3>
 
             <div className="mt-6 space-y-5 text-[15px] leading-8 text-slate-600">
               <p>
-                Aerotech (Pvt) Ltd is an aviation engineering and maintenance
-                company based at Charles Prince Airport, Mt Hampden, Harare,
-                Zimbabwe. Established in 2003, the company provides specialised
-                services supporting the general aviation industry.
+                Aerotech Technicians (Private) Limited is a Zimbabwean aviation
+                maintenance and engineering organisation based at Charles Prince
+                Airport, Mt Hampden, Harare. Built on more than five decades of
+                aviation experience in Zimbabwe, Aerotech brings together a
+                broad range of aviation maintenance, engineering and specialist
+                technical support capabilities.
               </p>
 
               <p>
-                Our capabilities cover aircraft maintenance and rebuilding,
-                engine and propeller overhauls, electrical and radio
-                installations, instrument repairs, aircraft refurbishment and
-                precision instrument calibration.
+                Our core business includes aircraft maintenance, engine
+                maintenance and overhauls, and propeller services. Our wider
+                capabilities include instrument testing and calibration,
+                electrical and radio systems, airframe engineering,
+                Non-Destructive Testing (NDT), electroplating and specialist
+                engineering services.
               </p>
 
               <p>
-                As a member of the KSM Group of companies, Aerotech is committed
-                to delivering safe, reliable and affordable aviation services
-                through technical expertise, teamwork and a strong commitment to
-                quality.
+                As a Civil Aviation Authority of Zimbabwe (CAAZ) Approved
+                Maintenance Organisation, Aerotech provides approved maintenance
+                support for aircraft within its authorised scope, including
+                aircraft not exceeding 5,700 kg maximum all-up weight.
+              </p>
+
+              <p>
+                As a member of the KSM Group of companies, we are guided by a
+                commitment to reliability, technical capability and customer
+                confidence. Our goal is to provide customers with a single point
+                of contact for comprehensive aviation support.
               </p>
             </div>
-
             {/* Values */}
             <div className="mt-7 grid gap-3 sm:grid-cols-2">
               {values.map((value) => (

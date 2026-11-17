@@ -18,28 +18,28 @@ const services = [
     number: "01",
     title: "Aircraft Maintenance",
     description:
-      "Aircraft maintenance, repair, rebuilding and complete refurbishment for general aviation aircraft with a Maximum All-up Weight of 5,700 kg.",
+      "Aircraft maintenance, scheduled servicing, repairs and rebuilding for general aviation aircraft within our authorised maintenance scope, including aircraft up to 5,700 kg Maximum All-up Weight.",
     image: "/images/services/aircraft-maintenance.jpg",
     icon: Plane,
     link: "/services/aircraft-maintenance",
-    category: "AIRFRAME & MAINTENANCE",
+    category: "AIRCRAFT MAINTENANCE",
     featured: true,
   },
   {
     number: "02",
     title: "Engine & Propeller Overhauls",
     description:
-      "Specialised piston engine and component overhauls, propeller overhauls and PT6 engine component repairs.",
+      "Specialist engine maintenance, piston engine overhauls, Pratt & Whitney PT6A component support, and propeller maintenance and overhaul services.",
     image: "/images/services/engine-overhaul.jpg",
     icon: Settings,
     link: "/services/engine-propeller",
-    category: "ENGINEERING",
+    category: "ENGINE & PROPELLER",
   },
   {
     number: "03",
     title: "Instrument Calibration",
     description:
-      "Testing and certification of pressure, temperature, electrical and standard measurement instruments.",
+      "Instrument testing, inspection and calibration services covering pressure, temperature, electrical and other measurement instruments.",
     image: "/images/services/instrument-calibration.jpg",
     icon: Gauge,
     link: "/services/instrument-calibration",
@@ -49,17 +49,17 @@ const services = [
     number: "04",
     title: "Electrical & Radio Services",
     description:
-      "Aircraft electrical and radio installations, component overhauls and specialised bench services.",
+      "Aircraft electrical and radio systems support, installations, troubleshooting, component maintenance and specialist technical services.",
     image: "/images/services/electrical-radio.jpg",
     icon: Radio,
     link: "/services/electrical-radio",
-    category: "AVIONICS",
+    category: "ELECTRICAL & RADIO",
   },
   {
     number: "05",
-    title: "Airframe & Sheet Metal",
+    title: "Airframe & Sheet Metal Engineering",
     description:
-      "Sheet metal fabrication, stressed skin repairs, aircraft weighing, fabric and fibreglass work.",
+      "Airframe engineering, structural inspections, sheet metal fabrication and repairs, aircraft refurbishment, and associated specialist engineering work.",
     image: "/images/services/airframe-engineering.jpg",
     icon: Wrench,
     link: "/services/airframe-engineering",
@@ -69,7 +69,7 @@ const services = [
     number: "06",
     title: "NDT & Corrosion Protection",
     description:
-      "Non-Destructive Testing and corrosion protection services, including specialised metal plating.",
+      "Non-Destructive Testing support, including Magnetic Particle and Fluorescent Penetrant Inspection, alongside corrosion protection and electroplating services.",
     image: "/images/services/ndt-corrosion.jpg",
     icon: ShieldCheck,
     link: "/services/ndt-corrosion",
@@ -79,17 +79,17 @@ const services = [
     number: "07",
     title: "Precision Engineering",
     description:
-      "General machining, aluminium welding, cable fabrication and proof loading of aircraft seatbelts.",
+      "Specialist engineering capabilities including machining, aluminium welding, component fabrication, cable fabrication and related technical workshop services.",
     image: "/images/services/precision-engineering.jpg",
     icon: Cog,
     link: "/services/precision-engineering",
-    category: "TECHNICAL SERVICES",
+    category: "SPECIALIST ENGINEERING",
   },
   {
     number: "08",
-    title: "Aircraft Spares",
+    title: "Aircraft Spares & Components",
     description:
-      "Aircraft spares sales to support maintenance, repair and aviation engineering requirements.",
+      "Aviation parts and component support to assist aircraft maintenance, repairs and engineering requirements.",
     image: "/images/services/aircraft-spares.jpg",
     icon: Ruler,
     link: "/services/aircraft-spares",
@@ -119,14 +119,18 @@ export default function Services() {
             </div>
 
             <h2 className="text-3xl font-black leading-tight tracking-tight text-[#082B52] sm:text-4xl lg:text-5xl">
-              Our Core
-              <span className="block text-[#087FC1]">Services</span>
+              Complete Aviation
+              <span className="block text-[#087FC1]">
+                Maintenance & Engineering
+              </span>
             </h2>
 
             <p className="mt-5 max-w-xl text-base leading-8 text-slate-600">
-              Comprehensive aviation engineering, aircraft maintenance and
-              precision calibration solutions, delivered with a commitment to
-              quality, safety and reliability.
+              From aircraft maintenance and engine overhauls to specialist
+              engineering, instrument calibration and technical support,
+              Aerotech brings a broad range of aviation capabilities together
+              under one roof. Our focus is reliability, quality workmanship and
+              keeping you flying with confidence.
             </p>
           </div>
 
@@ -154,7 +158,7 @@ export default function Services() {
             <div className="absolute inset-0 bg-gradient-to-t from-[#061D38]/60 to-transparent lg:bg-gradient-to-r" />
 
             <div className="absolute left-6 top-6 rounded-full border border-white/30 bg-[#061D38]/60 px-4 py-2 text-[10px] font-bold tracking-[0.18em] text-white backdrop-blur-md">
-              FEATURED SERVICE
+              CORE SERVICE
             </div>
           </div>
 
@@ -163,7 +167,7 @@ export default function Services() {
               <span className="text-4xl font-black text-[#19B5E5]">01</span>
               <span className="h-px w-12 bg-[#19B5E5]/60" />
               <span className="text-[10px] font-bold tracking-[0.2em] text-blue-200">
-                AIRFRAME & MAINTENANCE
+                AIRCRAFT MAINTENANCE
               </span>
             </div>
 
@@ -172,9 +176,10 @@ export default function Services() {
             </h3>
 
             <p className="mt-5 max-w-lg text-sm leading-7 text-blue-100/80 sm:text-base">
-              Comprehensive maintenance, repair and rebuilding services for
-              general aviation aircraft with a Maximum All-up Weight of 5,700
-              kg.
+              Our core business is keeping general aviation aircraft serviceable
+              through maintenance, scheduled servicing, repairs and rebuilding.
+              We provide maintenance capability within our authorised scope,
+              including aircraft up to 5,700 kg Maximum All-up Weight.
             </p>
 
             <Link
@@ -263,11 +268,12 @@ export default function Services() {
 
             <div>
               <h3 className="text-xl font-bold text-[#082B52]">
-                Looking for a specialised aviation service?
+                Your Aviation Requirements. Our Technical Expertise.
               </h3>
               <p className="mt-2 text-sm leading-6 text-slate-500">
-                Contact our team to discuss your aircraft maintenance or
-                engineering requirements.
+                Whether you require aircraft maintenance, engine services,
+                calibration or specialist engineering support, speak to our team
+                about your requirements.
               </p>
             </div>
           </div>

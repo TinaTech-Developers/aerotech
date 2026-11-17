@@ -4,26 +4,41 @@ import {
   ArrowRight,
   ArrowUpRight,
   CalendarDays,
-  Clock3,
   History,
   Plane,
   Wrench,
+  Settings,
+  Gauge,
 } from "lucide-react";
 
 const milestones = [
   {
-    year: "2003",
-    title: "A Significant Historical Milestone",
+    year: "50+ Years",
+    title: "A Heritage of Aviation Experience",
     description:
-      "Hunting Aircraft Services was incorporated as part of Aerotech in 2003, marking an important point in the company's history.",
+      "Aerotech's heritage is built on more than five decades of aviation experience in Zimbabwe, reflecting a longstanding contribution to the general aviation industry.",
     icon: History,
   },
   {
-    year: "Today",
-    title: "Aviation Engineering & Technical Services",
+    year: "2003",
+    title: "An Important Historical Milestone",
     description:
-      "Aerotech continues to focus on general aviation maintenance, aircraft rebuilding, component overhauls and specialist instrument calibration services.",
+      "Hunting Aircraft Services was incorporated as part of Aerotech in 2003, marking a significant development in the company's historical journey.",
+    icon: CalendarDays,
+  },
+  {
+    year: "Today",
+    title: "Comprehensive Aviation Engineering",
+    description:
+      "Aerotech continues to provide aircraft maintenance, engine and propeller support, instrument calibration and specialist aviation engineering services.",
     icon: Plane,
+  },
+  {
+    year: "Looking Ahead",
+    title: "Building a One-Stop Aviation Support Centre",
+    description:
+      "The company continues to develop its multidisciplinary capabilities with the vision of becoming the region's leading one-stop shop for general aviation services.",
+    icon: Settings,
   },
 ];
 
@@ -43,16 +58,16 @@ export default function OurHistory() {
           </span>
 
           <h2 className="mt-6 text-3xl font-bold leading-tight tracking-tight text-[#082B52] sm:text-4xl lg:text-5xl">
-            Built on Experience.
-            <span className="text-[#087FC1]"> Focused on the Future.</span>
+            More Than Five Decades of Experience.
+            <span className="text-[#087FC1]"> A Future in Aviation.</span>
           </h2>
 
           <div className="mx-auto mt-6 h-1 w-20 rounded-full bg-[#19B5E5]" />
 
           <p className="mt-6 text-base leading-8 text-slate-600 sm:text-lg">
-            Discover the historical journey of Aerotech (Pvt) Ltd and its
-            continued focus on providing specialised aviation engineering and
-            technical services.
+            Aerotech's story is built on a rich heritage of aviation experience,
+            technical expertise and a continued commitment to supporting general
+            aviation in Zimbabwe and the wider region.
           </p>
         </div>
 
@@ -73,16 +88,16 @@ export default function OurHistory() {
 
               <div className="absolute bottom-0 left-0 right-0 p-7 sm:p-9">
                 <span className="text-xs font-bold uppercase tracking-[0.25em] text-[#19B5E5]">
-                  Our Journey
+                  Our Heritage
                 </span>
 
                 <h3 className="mt-3 text-3xl font-bold text-white sm:text-4xl">
-                  A History of Aviation Engineering
+                  Over 50 Years of Supporting Aviation
                 </h3>
 
                 <p className="mt-3 max-w-md text-sm leading-7 text-blue-100">
-                  Continuing a focus on aircraft maintenance, technical
-                  expertise and aviation services.
+                  A legacy of aviation experience, engineering knowledge and
+                  technical service in Zimbabwe.
                 </p>
               </div>
             </div>
@@ -97,35 +112,49 @@ export default function OurHistory() {
             </span>
 
             <h3 className="mt-4 text-3xl font-bold leading-tight text-[#082B52] sm:text-4xl">
-              A Foundation in Aviation Services
+              A Legacy of Aviation Expertise
             </h3>
 
             <p className="mt-6 text-base leading-8 text-slate-600">
-              Aerotech's history includes the incorporation of Hunting Aircraft
-              Services as part of Aerotech in 2003. This milestone forms an
-              important part of the company's historical background.
+              Aerotech Technicians (Private) Limited draws on more than five
+              decades of aviation experience in Zimbabwe. This heritage
+              represents years of technical knowledge, industry experience and
+              commitment to supporting the general aviation sector.
             </p>
 
             <p className="mt-5 text-base leading-8 text-slate-600">
-              Today, Aerotech operates from Site 10 A, Charles Prince Airport,
-              Mt Hampden, Harare, Zimbabwe, with a range of capabilities
-              supporting general aviation.
+              An important milestone in the company's history came in 2003, when
+              Hunting Aircraft Services was incorporated as part of Aerotech.
+              This forms part of the broader historical journey behind the
+              organisation's aviation engineering capabilities.
             </p>
 
             <p className="mt-5 text-base leading-8 text-slate-600">
-              Its technical services include aircraft maintenance and
-              rebuilding, engine and propeller overhauls, airframe repairs,
-              electrical and radio services, instrument repairs and calibration,
-              and other specialist engineering activities.
+              Today, operating from Site 10 A, Charles Prince Airport, Mt
+              Hampden, Harare, Aerotech provides a comprehensive range of
+              aviation maintenance and engineering services. These include
+              aircraft maintenance and rebuilding, engine and propeller
+              overhauls, airframe engineering, electrical and radio support,
+              instrument testing and calibration, non-destructive testing,
+              corrosion protection and specialist component services.
+            </p>
+
+            <p className="mt-5 text-base leading-8 text-slate-600">
+              As a member of the KSM Group of companies, Aerotech continues to
+              strengthen its technical capabilities and pursue its vision of
+              becoming the region's leading one-stop shop for general aviation
+              services.
             </p>
 
             {/* Quick facts */}
             <div className="mt-9 grid grid-cols-2 gap-4">
               <div className="rounded-xl border border-slate-100 bg-[#F5F8FC] p-5">
-                <CalendarDays size={23} className="text-[#087FC1]" />
-                <h4 className="mt-3 text-2xl font-bold text-[#082B52]">2003</h4>
+                <History size={23} className="text-[#087FC1]" />
+                <h4 className="mt-3 text-2xl font-bold text-[#082B52]">
+                  50+ Years
+                </h4>
                 <p className="mt-1 text-xs leading-5 text-slate-500">
-                  Historical milestone
+                  Aviation experience in Zimbabwe
                 </p>
               </div>
 
@@ -135,7 +164,8 @@ export default function OurHistory() {
                   5,700 kg
                 </h4>
                 <p className="mt-1 text-xs leading-5 text-slate-500">
-                  Maximum aircraft weight for the stated maintenance capability
+                  Stated maximum aircraft weight within authorised maintenance
+                  scope
                 </p>
               </div>
             </div>
@@ -150,12 +180,12 @@ export default function OurHistory() {
             </span>
 
             <h3 className="mt-4 text-3xl font-bold text-[#082B52] sm:text-4xl">
-              Key Moments in Our History
+              Our Heritage, Our Progress
             </h3>
 
             <p className="mt-4 text-sm leading-7 text-slate-500">
-              Important historical context and the company's present-day
-              aviation engineering focus.
+              From decades of aviation experience to today's multidisciplinary
+              maintenance and engineering capabilities.
             </p>
           </div>
 
@@ -199,13 +229,15 @@ export default function OurHistory() {
               </span>
 
               <h3 className="mt-4 max-w-2xl text-3xl font-bold leading-tight text-white sm:text-4xl">
-                Continuing Our Commitment to Aviation Engineering
+                Building the Future of General Aviation Support
               </h3>
 
               <p className="mt-5 max-w-2xl text-sm leading-7 text-blue-100">
-                Aerotech's focus remains on providing aircraft maintenance and
-                technical services while working towards its vision of becoming
-                the region's best one-stop shop for general aviation services.
+                Guided by our heritage and driven by technical excellence,
+                Aerotech is working towards becoming the region's best one-stop
+                shop for general aviation services. Our commitment remains to
+                make aircraft maintenance safe, reliable and affordable while
+                delivering dependable engineering support.
               </p>
             </div>
 

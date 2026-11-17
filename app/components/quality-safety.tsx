@@ -14,35 +14,35 @@ import {
 const commitments = [
   {
     icon: ShieldCheck,
-    title: "Safety First",
+    title: "Safety & Airworthiness",
     description:
-      "We recognise that aircraft maintenance directly affects the safety of aircraft, crew and passengers. Safety remains central to our approach.",
+      "We recognise that aircraft maintenance carries a responsibility for the safety of aircraft, crew and passengers. Our work is guided by a safety-conscious approach and a commitment to maintaining airworthiness.",
   },
   {
     icon: ClipboardCheck,
-    title: "Quality Workmanship",
+    title: "Quality & Technical Excellence",
     description:
-      "We are committed to delivering dependable maintenance, repairs and technical services through careful and responsible workmanship.",
+      "We are committed to dependable aircraft maintenance, engine and propeller services, inspections and specialist engineering through careful, professional technical workmanship.",
   },
   {
     icon: Users,
-    title: "Teamwork",
+    title: "Teamwork & Collaboration",
     description:
-      "We work towards common goals through collaboration and effective communication with our customers and stakeholders.",
+      "We bring together technical expertise and effective communication to work with aircraft owners, operators, customers and industry stakeholders towards shared goals.",
   },
   {
     icon: Target,
-    title: "Accountability",
+    title: "Integrity & Accountability",
     description:
-      "We believe in acting with integrity, being accountable and maintaining ethical standards in everything we do.",
+      "We conduct our work responsibly, uphold professional and ethical standards, and take accountability for the quality and reliability of the services we provide.",
   },
 ];
 
 const values = [
-  "Commitment to quality and affordable service",
+  "Commitment to safe, reliable and quality service",
+  "Teamwork and collaboration in everything we do",
   "Integrity, honesty and accountability",
-  "Collaboration with customers and stakeholders",
-  "Continuous pursuit of excellence",
+  "Excellence in technical workmanship and customer service",
 ];
 
 export default function QualitySafety() {
@@ -62,15 +62,16 @@ export default function QualitySafety() {
             <h2 className="max-w-2xl text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-[3.4rem]">
               Safety in Every Detail.
               <span className="block text-[#19B5E5]">
-                Quality in Every Service.
+                Reliability in Every Service.
               </span>
             </h2>
 
             <p className="mt-6 max-w-xl text-base leading-8 text-slate-300 sm:text-lg">
-              At Aerotech, we understand the responsibility that comes with
-              aviation engineering. We are committed to making aircraft
-              maintenance safe and affordable through quality workmanship,
-              professional conduct and a strong safety-conscious approach.
+              At Aerotech Technicians, we understand that reliability in
+              aviation begins with responsible maintenance and quality
+              engineering. Our commitment is to make aircraft maintenance safe
+              and affordable through professional workmanship, technical
+              responsibility and a strong focus on airworthiness.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
@@ -92,14 +93,14 @@ export default function QualitySafety() {
             </div>
           </div>
 
-          {/* Temporary image */}
+          {/* Quality & Safety Image */}
           <div className="relative">
             <div className="absolute -bottom-4 -left-4 h-32 w-32 border-b-4 border-l-4 border-[#19B5E5]" />
 
             <div className="relative aspect-[5/4] overflow-hidden rounded-xl border border-white/10 shadow-2xl">
               <Image
                 src="/images/quality-safety.jpg"
-                alt="Aircraft maintenance engineering and inspection"
+                alt="Aircraft maintenance engineering and technical inspection"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -112,10 +113,10 @@ export default function QualitySafety() {
                 </div>
                 <div>
                   <p className="text-sm font-bold text-white">
-                    Safety-Conscious Engineering
+                    Safety & Airworthiness
                   </p>
                   <p className="mt-1 text-xs text-slate-300">
-                    Responsible technical workmanship
+                    Responsible aviation engineering
                   </p>
                 </div>
               </div>
@@ -136,8 +137,9 @@ export default function QualitySafety() {
           </h3>
 
           <p className="mt-5 leading-7 text-slate-600">
-            Our approach is guided by the values that define Aerotech and shape
-            how we serve our customers and the aviation industry.
+            In aviation, reliability is everything. Our approach is guided by
+            safety, technical responsibility, quality workmanship and
+            professional integrity in every service we provide.
           </p>
         </div>
 
@@ -186,9 +188,11 @@ export default function QualitySafety() {
             </h3>
 
             <p className="mt-5 max-w-xl leading-8 text-slate-600">
-              We believe that lasting customer relationships are built through
-              trust, consistent service and a shared commitment to quality.
-              These values guide our decisions and everyday operations.
+              Our work is built on values that shape our relationships with
+              customers, guide our technical teams and influence every decision
+              we make. From aircraft maintenance to specialist engineering
+              support, we strive to uphold these principles throughout our
+              operations.
             </p>
           </div>
 
@@ -217,11 +221,12 @@ export default function QualitySafety() {
         <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-7 px-5 py-12 sm:px-8 md:flex-row md:items-center">
           <div>
             <h3 className="text-2xl font-bold text-white sm:text-3xl">
-              Your Aircraft Deserves Responsible Care.
+              Your Trusted Partner in Airworthiness.
             </h3>
             <p className="mt-3 max-w-2xl text-sm leading-7 text-white/85">
-              Speak to the Aerotech team about our aircraft maintenance,
-              engineering and instrument calibration services.
+              Keeping you flying with confidence. Speak to our team about
+              aircraft maintenance, engine and propeller services, engineering
+              and specialist aviation support.
             </p>
           </div>
 

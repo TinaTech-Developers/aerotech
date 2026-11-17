@@ -8,7 +8,7 @@ export default function AboutHero() {
       {/* Background image */}
       <Image
         src="/images/about/about-hero.jpg"
-        alt="Aircraft at an aviation maintenance facility"
+        alt="Aircraft at an aviation maintenance and engineering facility"
         fill
         priority
         sizes="100vw"
@@ -32,7 +32,7 @@ export default function AboutHero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 mx-auto flex min-h-[480px] max-w-7xl flex-col justify-center px-5 py-20 sm:min-h-[540px] sm:px-8 lg:min-h-[600px] lg:px-10">
+      <div className="relative z-10 mx-auto flex min-h-[480px] max-w-7xl flex-col justify-center px-5 py-2 sm:min-h-[540px] sm:px-8 lg:min-h-[600px] lg:px-10">
         {/* Breadcrumb */}
         <div className="mb-8 flex items-center gap-2 text-sm text-blue-100/70">
           <Link href="/" className="transition-colors hover:text-[#19B5E5]">
@@ -51,17 +51,19 @@ export default function AboutHero() {
           </div>
 
           <h1 className="text-4xl font-extrabold leading-[1.08] tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
-            Engineering
+            In Aviation,
             <br />
-            Excellence in
-            <span className="block text-[#19B5E5]">Aviation.</span>
+            Reliability Is
+            <span className="block text-[#19B5E5]">Everything.</span>
           </h1>
 
           <p className="mt-7 max-w-2xl text-base leading-8 text-blue-50/80 sm:text-lg">
-            Discover Aerotech (Pvt) Ltd, an aviation engineering company based
-            at Charles Prince Airport, Harare, providing aircraft maintenance,
-            specialist engineering and instrument testing and calibration
-            services.
+            Discover Aerotech Technicians (Private) Limited, Zimbabwe's aviation
+            maintenance and engineering support provider. With more than five
+            decades of aviation experience behind our heritage, we deliver
+            aircraft maintenance, engine and propeller support, specialist
+            engineering and calibration services from Charles Prince Airport,
+            Harare.
           </p>
 
           <div className="mt-9 flex flex-col gap-4 sm:flex-row">
@@ -69,7 +71,7 @@ export default function AboutHero() {
               href="/services"
               className="inline-flex items-center justify-center gap-3 rounded-lg bg-[#087FC1] px-7 py-4 text-sm font-bold text-white transition-all duration-300 hover:bg-[#19B5E5]"
             >
-              Explore Our Services
+              Explore Our Capabilities
               <ArrowRight size={18} />
             </Link>
 
@@ -86,10 +88,10 @@ export default function AboutHero() {
         <div className="mt-14 flex flex-wrap items-center gap-x-8 gap-y-4 border-t border-white/15 pt-6">
           <div>
             <p className="text-xs font-bold uppercase tracking-wider text-[#19B5E5]">
-              Location
+              Our Heritage
             </p>
             <p className="mt-1 text-sm text-white/80">
-              Charles Prince Airport, Harare
+              Over 50 Years of Aviation Experience
             </p>
           </div>
 
@@ -97,10 +99,10 @@ export default function AboutHero() {
 
           <div>
             <p className="text-xs font-bold uppercase tracking-wider text-[#19B5E5]">
-              Our Mission
+              Our Commitment
             </p>
             <p className="mt-1 text-sm text-white/80">
-              Safe and affordable aircraft maintenance
+              Safe and Affordable Aircraft Maintenance
             </p>
           </div>
         </div>

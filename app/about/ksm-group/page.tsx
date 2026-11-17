@@ -13,20 +13,21 @@ import {
 const groupHighlights = [
   {
     icon: Building2,
-    title: "Corporate Group Membership",
-    description: "Aerotech (Pvt) Ltd is a member of KSM Group of Companies.",
+    title: "Part of KSM Group",
+    description:
+      "Aerotech Technicians (Private) Limited is a member of KSM Group of Companies.",
   },
   {
     icon: Plane,
-    title: "Aviation Specialisation",
+    title: "Specialist Aviation Division",
     description:
-      "Aerotech focuses on general aviation maintenance, engineering and technical services.",
+      "Aerotech focuses on general aviation aircraft maintenance, engineering and specialist technical support.",
   },
   {
     icon: ShieldCheck,
-    title: "Technical Expertise",
+    title: "Multidisciplinary Capabilities",
     description:
-      "The company provides specialised aircraft maintenance, component overhaul and instrument calibration services.",
+      "A broad range of aviation services, including aircraft maintenance, engine and propeller overhauls, calibration and specialist engineering.",
   },
 ];
 
@@ -53,9 +54,11 @@ export default function KSMGroup() {
           <div className="mx-auto mt-6 h-1 w-20 rounded-full bg-[#19B5E5]" />
 
           <p className="mt-6 text-base leading-8 text-slate-600 sm:text-lg">
-            Aerotech (Pvt) Ltd is a member of KSM Group of Companies, bringing
-            its specialised aviation engineering and technical services into a
-            wider corporate group.
+            Aerotech Technicians (Private) Limited is a member of KSM Group of
+            Companies. Through its specialised aviation engineering
+            capabilities, Aerotech contributes to the group's wider business
+            portfolio while serving the maintenance and technical needs of the
+            general aviation industry.
           </p>
         </div>
 
@@ -81,12 +84,12 @@ export default function KSMGroup() {
                 </span>
 
                 <h3 className="mt-3 text-3xl font-bold text-white sm:text-4xl">
-                  Aerotech (Pvt) Ltd
+                  Aerotech Technicians
                 </h3>
 
                 <p className="mt-3 max-w-md text-sm leading-7 text-blue-100">
-                  Specialised aviation engineering, aircraft maintenance and
-                  instrument calibration services.
+                  Dedicated aviation maintenance, engineering and specialist
+                  technical support services.
                 </p>
               </div>
             </div>
@@ -104,22 +107,30 @@ export default function KSMGroup() {
             </span>
 
             <h3 className="mt-4 text-3xl font-bold leading-tight text-[#082B52] sm:text-4xl">
-              Specialist Aviation Services Within a Wider Group
+              Specialist Aviation Expertise Within a Diversified Group
             </h3>
 
             <p className="mt-6 text-base leading-8 text-slate-600">
-              Aerotech operates as a specialised aviation engineering company
-              and is part of KSM Group of Companies. Its operations are focused
-              on supporting general aviation through aircraft maintenance,
-              repairs, component overhauls and technical services.
+              KSM Group of Companies brings together businesses operating across
+              different sectors. As a member of the group, Aerotech Technicians
+              (Private) Limited specialises in aviation maintenance, engineering
+              and technical support services.
             </p>
 
             <p className="mt-5 text-base leading-8 text-slate-600">
-              Located at Charles Prince Airport in Mt Hampden, Harare, Aerotech
-              provides a range of aviation engineering capabilities, including
-              aircraft maintenance and rebuilding, engine and propeller
-              overhauls, electrical and radio services, and instrument
-              calibration.
+              Operating from Charles Prince Airport, Mt Hampden, Harare,
+              Aerotech supports general aviation through aircraft servicing,
+              inspections, repairs and rebuilding, engine and propeller
+              overhauls, airframe engineering and specialist component services.
+            </p>
+
+            <p className="mt-5 text-base leading-8 text-slate-600">
+              Its wider technical capabilities also include instrument testing
+              and calibration, electrical and radio systems, non-destructive
+              testing, corrosion protection and other specialist engineering
+              activities. Together, these capabilities support Aerotech's
+              ambition to provide a comprehensive, one-stop source of aviation
+              maintenance and engineering services.
             </p>
 
             {/* Highlights */}
@@ -174,9 +185,11 @@ export default function KSMGroup() {
             {/* Connector */}
             <div className="flex items-center justify-center">
               <div className="hidden h-px w-20 bg-[#19B5E5] lg:block" />
+
               <div className="flex h-12 w-12 items-center justify-center rounded-full border border-[#19B5E5]/40 bg-[#087FC1]/20 text-[#19B5E5]">
                 <ArrowRight size={22} />
               </div>
+
               <div className="hidden h-px w-20 bg-[#19B5E5] lg:block" />
             </div>
 
@@ -187,18 +200,19 @@ export default function KSMGroup() {
               </div>
 
               <h3 className="mt-5 text-2xl font-bold text-white">
-                Aerotech (Pvt) Ltd
+                Aerotech Technicians
               </h3>
 
               <p className="mt-2 text-sm text-blue-100">
-                Aviation Engineering & Technical Services
+                Aviation Maintenance & Engineering
               </p>
             </div>
           </div>
 
           <div className="border-t border-white/10 px-6 py-5 text-center">
             <p className="text-sm leading-6 text-blue-100">
-              Aerotech (Pvt) Ltd is a member of KSM Group of Companies.
+              Aerotech Technicians (Private) Limited is a member of KSM Group of
+              Companies.
             </p>
           </div>
         </div>
@@ -206,3 +220,6 @@ export default function KSMGroup() {
     </section>
   );
 }
+
+
+

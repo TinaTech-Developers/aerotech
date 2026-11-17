@@ -341,3 +341,97 @@
     font-size: 19px;
   }
 }
+
+/* Aerotech aviation radar animation */
+@keyframes aerotechRadarPulse {
+  0% {
+    transform: scale(0.65);
+    opacity: 0;
+    border-color: #7dd3fc;
+  }
+
+  15% {
+    opacity: 0.8;
+  }
+
+  100% {
+    transform: scale(1.65);
+    opacity: 0;
+    border-color: #19b5e5;
+  }
+}
+
+@keyframes aerotechPlaneGlow {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 5px rgba(25, 181, 229, 0.2));
+  }
+
+  50% {
+    filter: drop-shadow(0 0 20px rgba(25, 181, 229, 0.9));
+  }
+}
+
+.aerotech-hero-radar {
+  position: absolute;
+  inset: 0;
+  border: 1.5px solid #19b5e5;
+  border-radius: 50%;
+  background: rgba(25, 181, 229, 0.04);
+  animation: aerotechRadarPulse 3s ease-out infinite;
+  pointer-events: none;
+}
+
+.aerotech-hero-radar--second {
+  animation-delay: 1s;
+  border-color: #38bdf8;
+}
+
+.aerotech-hero-radar--third {
+  animation-delay: 2s;
+  border-color: #7dd3fc;
+}
+
+.aerotech-hero-plane {
+  animation: aerotechPlaneGlow 3s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .aerotech-hero-radar,
+  .aerotech-hero-plane {
+    animation: none;
+  }
+}
+
+@keyframes aerotechRingGlow {
+  0%, 100% {
+    border-color: rgba(125, 211, 252, 0.15);
+    box-shadow: 0 0 4px rgba(56, 189, 248, 0.05);
+  }
+
+  50% {
+    border-color: rgba(125, 211, 252, 0.95);
+    box-shadow:
+      0 0 8px rgba(56, 189, 248, 0.55),
+      0 0 18px rgba(56, 189, 248, 0.35),
+      inset 0 0 12px rgba(56, 189, 248, 0.12);
+  }
+}
+
+.aerotech-hero-radar {
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(125, 211, 252, 0.2);
+  border-radius: 50%;
+  animation: aerotechRingGlow 3s ease-in-out infinite;
+}
+
+.aerotech-hero-radar--second {
+  inset: 28px;
+  animation-delay: 0.5s;
+}
+
+.aerotech-hero-radar--third {
+  inset: 56px;
+  animation-delay: 1s;
+}

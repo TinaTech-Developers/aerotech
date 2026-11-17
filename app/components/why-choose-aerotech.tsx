@@ -16,53 +16,54 @@ import {
 const reasons = [
   {
     number: "01",
-    icon: Plane,
-    title: "Comprehensive Aviation Services",
+    icon: ShieldCheck,
+    title: "Reliability You Can Depend On",
     description:
-      "Aircraft maintenance, engine and propeller overhauls, instrument calibration and specialist engineering services brought together under one company.",
+      "We understand that reliability is essential in aviation. Our approach centres on responsible maintenance, quality workmanship and technical support that helps customers maintain confidence in their aircraft.",
   },
   {
     number: "02",
-    icon: Wrench,
-    title: "Broad Technical Capabilities",
+    icon: Plane,
+    title: "One-Stop Aviation Capability",
     description:
-      "From airframe repairs and electrical installations to machining, welding, NDT and corrosion protection, Aerotech offers a diverse range of technical capabilities.",
+      "Aircraft maintenance, engine and propeller overhauls, instrument calibration and specialist engineering services are brought together to provide customers with a broad range of aviation support under one roof.",
   },
   {
     number: "03",
     icon: Gauge,
-    title: "Specialist Instrument Calibration",
+    title: "Over 50 Years of Aviation Experience",
     description:
-      "Testing and certification services covering pressure, temperature, electrical and standard measurement instruments.",
+      "Built on more than five decades of aviation experience in Zimbabwe, our heritage reflects a long-standing commitment to aircraft maintenance, engineering and specialist technical services.",
   },
   {
     number: "04",
-    icon: MapPin,
-    title: "Strategic Aviation Location",
+    icon: ShieldCheck,
+    title: "CAAZ-Approved Maintenance Capability",
     description:
-      "Based at Site 10 A, Charles Prince Airport, Mt Hampden, Harare, within Zimbabwe's general aviation environment.",
+      "Our maintenance organisation operates within its applicable Civil Aviation Authority of Zimbabwe approval and authorised technical scope, supporting responsible aircraft maintenance and airworthiness.",
   },
   {
     number: "05",
-    icon: Users,
-    title: "Experienced Technical Team",
+    icon: Wrench,
+    title: "Multidisciplinary Technical Expertise",
     description:
-      "Our organisational structure brings together dedicated management and specialist responsibilities across engineering, quality, safety and finance.",
+      "Our capabilities extend across airframe engineering, engine and propeller services, electrical and radio systems, instrument testing, calibration, NDT and specialist workshop engineering.",
   },
   {
     number: "06",
-    icon: ShieldCheck,
-    title: "Commitment to Quality",
+    icon: Users,
+    title: "A Customer-Focused Approach",
     description:
-      "Our work is guided by commitment, teamwork, integrity and excellence, with a mission to make aircraft maintenance safe and affordable.",
+      "We value collaboration, clear communication and professional service. By bringing different technical capabilities together, we aim to simplify service coordination and support our customers' operational requirements.",
   },
 ];
 
 const highlights = [
-  "Aircraft maintenance and rebuilding up to 5,700 kg Maximum All Up Weight",
-  "Aircraft, engine and component engineering services",
-  "Instrument testing and calibration capabilities",
-  "Part of the KSM Group of companies",
+  "Aircraft maintenance and rebuilding within our authorised scope, including aircraft up to 5,700 kg MAUW",
+  "Engine maintenance, piston engine and propeller overhaul capabilities",
+  "Instrument testing, calibration and specialist engineering services",
+  "More than five decades of aviation experience in Zimbabwe",
+  "Proud member of the KSM Group of companies",
 ];
 
 export default function WhyChooseAerotech() {
@@ -81,17 +82,18 @@ export default function WhyChooseAerotech() {
             </div>
 
             <h2 className="max-w-2xl text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
-              Your Aviation Partner.
+              In Aviation,
               <span className="block text-[#19B5E5]">
-                Our Commitment to Excellence.
+                Reliability Is Everything.
               </span>
             </h2>
 
             <p className="mt-6 max-w-xl text-base leading-8 text-slate-300 sm:text-lg">
-              Aerotech brings together a wide range of aircraft maintenance,
-              engineering and instrument calibration capabilities. Our focus is
-              on delivering quality and affordable services while building
-              lasting relationships with our customers.
+              Aerotech Technicians brings together aircraft maintenance, engine
+              and propeller services, instrument calibration and specialist
+              aviation engineering. Built on more than five decades of aviation
+              experience in Zimbabwe, we are committed to quality, reliability
+              and keeping our customers flying with confidence.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
@@ -147,7 +149,7 @@ export default function WhyChooseAerotech() {
             <div className="mt-8 border-t border-white/10 pt-7">
               <p className="text-sm font-semibold text-white">Our Vision</p>
               <p className="mt-2 text-sm italic leading-7 text-slate-300">
-                "To be the best one stop shop for all general aviation services
+                "To be the best one-stop shop for all general aviation services
                 in the region."
               </p>
             </div>
@@ -163,13 +165,14 @@ export default function WhyChooseAerotech() {
           </span>
 
           <h3 className="mt-4 text-3xl font-bold leading-tight text-[#082B52] sm:text-4xl">
-            One Company. Multiple Aviation Capabilities.
+            One Partner. Comprehensive Aviation Support.
           </h3>
 
           <p className="mt-5 leading-8 text-slate-600">
-            We bring together different areas of aviation engineering and
-            technical expertise to support the varied needs of the general
-            aviation sector.
+            Aviation operations require dependable technical support across
+            multiple disciplines. Our broad capabilities bring maintenance,
+            engineering and specialist services together, helping customers
+            coordinate their aviation requirements through one organisation.
           </p>
         </div>
 
@@ -215,11 +218,12 @@ export default function WhyChooseAerotech() {
 
             <div>
               <h3 className="text-2xl font-bold text-[#082B52]">
-                Looking for an Aviation Engineering Partner?
+                Your Trusted Partner in Airworthiness.
               </h3>
               <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-600">
-                Connect with Aerotech to discuss your aircraft maintenance,
-                engineering or instrument calibration requirements.
+                From aircraft maintenance and engine overhauls to specialist
+                engineering and calibration, connect with Aerotech for
+                comprehensive aviation support.
               </p>
             </div>
           </div>

@@ -14,23 +14,27 @@ import {
 const highlights = [
   {
     icon: Plane,
-    title: "General Aviation",
-    description: "Aircraft maintenance and engineering services.",
+    title: "Aircraft Maintenance",
+    description:
+      "Aircraft servicing, inspections, repairs and rebuilding within authorised scope.",
   },
   {
     icon: Wrench,
-    title: "Technical Expertise",
-    description: "Aircraft, engines and component maintenance.",
+    title: "Engine & Propeller Overhauls",
+    description:
+      "Specialist maintenance and overhaul support for piston engines and propeller systems.",
   },
   {
     icon: Gauge,
-    title: "Instrument Services",
-    description: "Testing and calibration of measuring instruments.",
+    title: "Instrument Testing & Calibration",
+    description:
+      "Testing and calibration services for pressure, temperature and electrical instruments.",
   },
   {
     icon: Settings,
-    title: "Engineering Solutions",
-    description: "A range of specialist aviation engineering capabilities.",
+    title: "Specialist Engineering",
+    description:
+      "Multidisciplinary aviation engineering, component support and technical services.",
   },
 ];
 
@@ -48,7 +52,7 @@ export default function CompanyOverview() {
             <div className="relative h-[380px] overflow-hidden rounded-3xl shadow-xl sm:h-[480px]">
               <Image
                 src="/images/about/company-overview.jpg"
-                alt="Aircraft at an aviation engineering facility"
+                alt="Aircraft at Aerotech aviation maintenance and engineering facility"
                 fill
                 priority
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -59,10 +63,10 @@ export default function CompanyOverview() {
 
               <div className="absolute bottom-0 left-0 right-0 p-7 sm:p-9">
                 <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#19B5E5]">
-                  Aerotech (Pvt) Ltd
+                  Aerotech Technicians
                 </p>
                 <h3 className="mt-2 max-w-md text-2xl font-bold leading-tight text-white sm:text-3xl">
-                  Supporting General Aviation Through Engineering Excellence
+                  Your Trusted Partner in Airworthiness
                 </h3>
               </div>
             </div>
@@ -97,34 +101,40 @@ export default function CompanyOverview() {
 
             <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-[#082B52] sm:text-4xl lg:text-5xl">
               Who We Are
-              <span className="block text-[#087FC1]">Aerotech (Pvt) Ltd</span>
+              <span className="block text-[#087FC1]">Aerotech Technicians</span>
             </h2>
 
             <div className="mt-6 space-y-5 text-base leading-8 text-slate-600">
               <p>
-                Aerotech (Pvt) Ltd is an aviation engineering company based at
-                Charles Prince Airport, Mt Hampden, Harare, Zimbabwe. The
-                company provides aircraft maintenance, rebuilding and specialist
-                engineering services for general aviation.
+                Aerotech Technicians (Private) Limited is an aviation
+                maintenance and engineering company based at Charles Prince
+                Airport, Mt Hampden, Harare, Zimbabwe. We support the general
+                aviation industry through aircraft maintenance, engineering
+                expertise and specialist aviation support services.
               </p>
 
               <p>
-                Our capabilities cover aircraft maintenance for aircraft with a
-                Maximum All Up Weight of 5,700 kg, piston engine and propeller
-                overhauls, electrical and radio services, instrument repairs,
-                aircraft refurbishment and other specialist engineering work.
+                Our core capabilities include aircraft maintenance, servicing,
+                inspections, repairs and rebuilding, alongside engine and
+                propeller maintenance and overhauls. Our maintenance
+                capabilities cover aircraft within an authorised scope of up to
+                5,700 kg Maximum All-Up Weight, subject to applicable approvals.
               </p>
 
               <p>
-                Aerotech also provides instrument testing and calibration
-                services across pressure, temperature, electrical and standard
-                measurement instruments.
+                Beyond aircraft maintenance, we provide a range of specialist
+                services including instrument testing and calibration,
+                electrical and radio systems support, airframe engineering,
+                non-destructive testing, corrosion protection and component
+                engineering.
               </p>
 
               <p>
-                Aerotech is a member of the KSM Group of companies, operating
-                with a focus on its mission to make aircraft maintenance safe
-                and affordable.
+                With more than five decades of aviation experience behind our
+                heritage, Aerotech brings together multidisciplinary technical
+                capabilities to provide customers with a dependable, one-stop
+                source for aviation maintenance and engineering support. We are
+                also a member of the KSM Group of companies.
               </p>
             </div>
 
@@ -158,7 +168,7 @@ export default function CompanyOverview() {
                 href="/services"
                 className="inline-flex items-center gap-3 rounded-lg bg-[#087FC1] px-7 py-4 text-sm font-bold text-white transition-all duration-300 hover:bg-[#082B52]"
               >
-                Discover Our Services
+                Explore Our Capabilities
                 <ArrowRight size={18} />
               </Link>
 
